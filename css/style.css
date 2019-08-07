@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
 
-
 /* navbar */
 .event-title-box {
     border: 1px solid green; 
@@ -15,7 +14,6 @@
     margin-top: 10px;
     margin-left: 3%;
   }
-
 
   .intro-info {
     position: relative;
@@ -301,21 +299,13 @@
   }
 
   @media screen and (max-width: 990px) {
-.width-pc {
-  display: none;
+  .width-pc {
+    display: none;
+  }
 }
-
-
-}
-
-
-
-
-
 
 
 /* content board */
-
 .row-0-gutter {
     margin-left: -13px;
     margin-right: -13px;
@@ -326,8 +316,65 @@
 	padding-right: 0;
 }
 
+/* section */
+.section-title {
+	padding-bottom: 30px;
+}
+
+.section-title h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.section-title p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 33px;
+	margin: 25px 100px 30px 100px;
+}
+
+/*
+.mz-module .section-title {
+    padding: 40px 0;
+}
+*/
 
 
+/*--------------------
+4.3. Portfolio
+--------------------*/
+figure {
+	position: relative;
+    overflow: hidden;
+    margin: 0 1px 1px 0;
+    background: #726FB9;
+    text-align: center;
+    cursor: pointer;	
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;	
+}
+
+.ot-portfolio-item figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.ot-portfolio-item figure figcaption, .ot-portfolio-item figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 figure.effect-bubba {
 	background: #000;
