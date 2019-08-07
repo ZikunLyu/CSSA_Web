@@ -8,41 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/my-css.css">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-
-    <style>
-        .bd-placeholder-img-carousel {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-          display: block;
-          margin: auto;
-          width: 1300px;
-          height: 700px;
-        }
-
-        .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-  
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-        }
-
-
-      </style>
   
     <title>Hello, world!</title>
   </head>
@@ -350,6 +317,38 @@
 
 </ul>
 
+<!--board tester ==========================================================================================================================================================================-->
+<div class="row row-0-gutter">
+    <!-- start portfolio item -->
+    <div class="col-md-6 col-0-gutter">
+      <div class="ot-portfolio-item">
+        <figure class="effect-bubba">
+          <img src="image/reborn2.png" alt="image" class="img-responsive" />
+          <figcaption>
+            <h2>Dean & Letter</h2>
+            <p>Branding, Design</p>
+            <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    
+    <!-- end portfolio item -->
+    <!-- start portfolio item -->
+    <div class="col-md-6 col-0-gutter">
+      <div class="ot-portfolio-item">
+        <figure class="effect-bubba">
+          <img src="image/reborn2.png" alt="img02" class="img-responsive" />
+          <figcaption>
+            <h2>Startup Framework</h2>
+            <p>Branding, Web Design</p>
+            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <!-- end portfolio item -->
+  </div>
 
 </main>
 
@@ -441,292 +440,7 @@
 
   -->
 
-
-
-
-
-
-
-
-
-    <style>
-    
-        .event-title-box {
-          border: 1px solid green; 
-          margin-left: 3%;
-          margin-right: 3%;
-          width: 1200;
-          height: 200;
-        }
-      
-        .event-title {
-          margin-top: 10px;
-          margin-left: 3%;
-        }
-
-
-        .intro-info {
-          position: relative;
-          top: 10px;
-          text-align: center;
-          margin-top: 40px;
-
-          display: block;
-          width: 1000px;
-          height: 300px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        .intro-title {
-          position: relative;
-          top: 10px;
-          margin-left: auto;
-          margin-right: auto;
-          width: 8000/px;
-          display: block; 
-          margin-bottom: 10px;
-          font-size: 200px;
-        }
-
-        .intro-text {
-          font-size: 15px;
-          font-weight: bold;
-        }
-
-
-        .logo {
-          font: 84px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
-          color:crimson;
-          text-transform: uppercase;
-          letter-spacing: -4px;
-        }
-
-        /* stuff for both words */
-        .logo span {
-          position: relative;
-        }
-        
-        .logo span:before,
-        .logo span:after {
-          content: '';
-          position: absolute;
-          border-width: 32px;/* makes a nice, big 64px square */
-          border-style: solid;
-          border-color: transparent;
-          height: 0;
-          z-index: 10;
-        }
-
-        /* stuff for 1st word */
-        .logo .word1 {
-          color:red;
-          margin-right: -38px;
-          transform: rotateY(180deg);/* using Prefix free */
-          display: inline-block;/* required for transform */
-          z-index: 10;/* stack 1st word on top */
-        }
-
-        .logo .word1:before {
-        right: -4px;/* would be left, but we flipped the word */
-        top: -9px;
-        border-top-color:white;;/* match background color */
-        border-right-color: white;/* would be left, but we flipped the word   #282828*/
-        }
-
-        .logo .word1:after {
-        left: 17px;/* would be right, but we flipped the word */
-        bottom: -15px;
-        border-bottom-color: white;
-        border-left-color:white;;/* would be right, but we flipped the word */
-        }
-
-        /* stuff for 2nd word */
-        .logo .word2 {
-          z-index: 0;/* stack 2nd word below */
-        }
-
-        .logo .word2:before {
-          left: -4px;
-          top: -6px;
-          border-top-color:white;
-          border-left-color: white;
-        }
-
-        .logo .word2:after {
-          right: -4px;  
-          bottom: 4px;
-          border-bottom-color: white;
-          border-right-color: white;
-        }
-
-        #navbarMenu {
-          margin: 0 auto;
-          overflow: hidden;
-        }
-        
-        
-        #navbarMenu ul {
-          display: flex;
-          padding: 0;
-        }
-        
-        #navbarMenu ul li a {
-          color: #FFF;
-        }
-
-        #navbarMenu ul li a.nav-link {
-          transform: scale(1); /* use to make things bigger or smaller, can do it in different direction*/
-          transition: 0.8s;
-          display: block;
-        }
-
-        #navbarMenu ul li a.nav-link.hide-item {
-          transform: scale(0); /* scale to 0% */
-        }
-
-        #navbarMenu ul li:nth-child(1) a.nav-link.hide-item {
-          transition-delay: 0.5s;
-        }
-
-        #navbarMenu ul li:nth-child(2) a.nav-link.hide-item {
-          transition-delay: 0.4s;
-        }
-
-        #navbarMenu ul li:nth-child(3) a.nav-link.hide-item {
-          transition-delay: 0.3s;
-        }
-
-        #navbarMenu ul li:nth-child(4) a.nav-link.hide-item {
-          transition-delay: 0.2s;
-        }
-
-        #navbarMenu ul li:nth-child(5) a.nav-link.hide-item {
-          transition-delay: 0.1s;
-        }
-
-        #navbarMenu ul li:nth-child(6) a.nav-link.hide-item {
-          transition-delay: 0s;
-        }
-
-        
-        #navbarMenu ul li:nth-child(1) a.nav-link {
-          transition-delay: 0s;
-        }
-
-        #navbarMenu ul li:nth-child(2) a.nav-link {
-          transition-delay: 0.1s;
-        }
-
-        #navbarMenu ul li:nth-child(3) a.nav-link {
-          transition-delay: 0.2s;
-        }
-
-        #navbarMenu ul li:nth-child(4) a.nav-link {
-          transition-delay: 0.3s;
-        }
-
-        #navbarMenu ul li:nth-child(5) a.nav-link {
-          transition-delay: 0.4s;
-        }
-
-        #navbarMenu ul li:nth-child(6) a.nav-link {
-          transition-delay: 0.5s;
-        }
-
-        .search-form {
-          position: absolute;
-          top: 3;
-          left: 50%;
-          transform: translateX(-50%); 
-          width: 600px;
-          height: 44px;
-          opacity: 0; /* the extent of untransparent */
-          visibility: hidden;
-          transition: 0.8s;
-        }
-
-        .search-form.active {
-          opacity: 1;
-          visibility: visible;
-          transition-delay: 0.5s;
-          transform: translateX(-50%);
-        }
-
-        .search-form input {
-          width: 100%;
-          height: 44px;
-          background: transparent;
-          color: #FFF;
-          border: none;
-          outline: none;
-          font-size: 16px;
-        }
-
-        .search-form:before {
-          content:'\f002'; /* this is a default icon list in fontAwesome */
-          position: absolute;
-          top: 9px;
-          left: -26px;
-          font-size: 18px;
-          color: #fff;
-          font-family: fontAwesome;
-        }
-
-        .search-form input::placeholder {
-          color: #FFF;
-        }
-
-        .close {
-          position: absolute;
-          top: 17px;
-          right: 20px;
-          color: #fff;
-          height: 30px;
-          font-size: 20px;
-          text-align: right;
-          width: 24px;
-          opacity: 0;
-          visibility: hidden;
-          cursor: pointer;
-          
-          /*
-          transform: translateX(-50%); 
-          transition: 0.8s;
-          */
-        }
-
-        .close.active {
-          opacity: 1;
-          visibility: visible;
-        }
-
-        #login {
-          visibility: visible;
-          opacity: 1;
-          transition-delay: 0.5s;
-          transform: translateX(-50%);
-          position: absolute;
-          top: 2px;
-          right: 36px;
-        }
-
-        #login.deactive {
-          visibility: hidden;
-          opacity: 0;
-          transition-delay: 0.5s;
-          transform: translateX(-50%);
-        }
-
-        @media screen and (max-width: 990px) {
-      .width-pc {
-        display: none;
-      }
-    }
-
-    </style>
-
-    
-
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
