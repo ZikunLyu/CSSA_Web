@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, 
+    shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/my-css.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+
+    <style>
+        .bd-placeholder-img-carousel {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          display: block;
+          margin: auto;
+          width: 1300px;
+          height: 433px;
+        }
+
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+
+
+      </style>
+  
+    <title>Hello, world!</title>
+  </head>
+  <!--
+    Bootstrap has a wide range of responsive margin and padding utility classes. They work for all breakpoints:
+      xs (<=576px), sm (>=576px), md (>=768px), lg (>=992px) or xl (>=1200px))
+    The classes are used in the format:
+      {property}{sides}-{size} for xs & {property}{sides}-{breakpoint}-{size} for sm, md, lg, and xl.
+    m - sets margin
+    p - sets padding
+    t - sets margin-top or padding-top
+    b - sets margin-bottom or padding-bottom
+    l - sets margin-left or padding-left
+    r - sets margin-right or padding-right
+    x - sets both padding-left and padding-right or margin-left and margin-right
+    y - sets both padding-top and padding-bottom or margin-top and margin-bottom
+    blank - sets a margin or padding on all 4 sides of the element
+    0 - sets margin or padding to 0
+    1 - sets margin or padding to .25rem (4px if font-size is 16px)
+    2 - sets margin or padding to .5rem (8px if font-size is 16px)
+    3 - sets margin or padding to 1rem (16px if font-size is 16px)
+    4 - sets margin or padding to 1.5rem (24px if font-size is 16px)
+    5 - sets margin or padding to 3rem (48px if font-size is 16px)
+    auto - sets margin to auto
+  -->
+  <body>
+    <!--
+    <div class="navbar navbar-static-top navbar-light"></div>
+      <div class="container-fluid"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header"></button>
+    -->
+    <!--the flex direction is column as default -->
+    <!--add navbar-expand to tell it we only need it show in the nav bar instead of a dropdown mene 
+      -lg means it only works on a big screen (it will disapear when you go below a certain size)
+      -sm for small device 
+    -->
+
+    <header>
+    <!-- Menu part 
+    =================================================================================================================================-->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+        <!-- href = "#" means it leads to nowhere, coz you havent filled the address -->
+        <a href="#" class="navbar-brand" style="width:10%">McGill CSSA</a>
+        <!-- we can add a toggle button (dropdown menu when you go below a certain size)-->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" 
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
+           ml-auto to move element to the irght (add margin to left -> move to right)-->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+          <ul class="navbar-nav nav-fill w-100">
+
+            <!--
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="fa fa-apple" style="color: white; position: absolute; top: 9pt;"></i></a>
+            </li>
+            -->
+            <li class="nav-item" >
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link">Membership</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link">Sponsors</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link">Membership</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item width-pc"> 
+              <a href="#" id="search" class="nav-item"><i class="fa fa-search" 
+                style="color: white; position: absolute; top: 14pt;"></i></a>
+            </li>
+            <li class="nav-item width-pc">
+              <a href="#" id="login"><i class="fa fa-shopping-basket" 
+                style="color: white; position: absolute; top: 13pt;"></i></a>
+            </li>
+          </ul>
+        <div class="search-form">
+          <form>
+            <!--placeholder is a hint appearing before user enter anything-->
+            <input type="text" name="" placeholder="Search keywords">
+          </form>
+        </div>
+
+        <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>    
+      </div>
+    </nav>
+
+    </header>
+
+
+    <main role="main">
+      <!--carousel part  
+      ===================================================================================================================================================================-->
+      <!--margin-left: 53pt; margin-right: 53pt;-->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%; height: 100%;">
+        <!-- indicator -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!--Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!--size of image is 1280 * 400 px-->
+            <img class="bd-placeholder-img-carousel" src="image/reborn5.png" alt="Vongola I">
+            <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>Example headline.</h1>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Vongola I</a></p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <!--
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+              -->
+              <img class="bd-placeholder-img-carousel" src="image/reborn6.png" alt="Vongola V">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Another example headline.</h1>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <svg class="bd-placeholder-img-carousel" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777" /></svg>
+              <div class="container">
+                <div class="carousel-caption text-right">
+                  <h1>One more for good measure.</h1>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                </div>
+              </div>
+          </div>
+          <!--left shift and right shift button on the carousel-->
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>    
+      </div>
+
+  <!-- event and view more bar
+  ===============================================================================================================================================================================================================-->
+      <div class="d-flex row no-gutters border flex-md-row shadow-sm" id="event-top-bar"
+      style="margin-top: 10px; margin-left: 10px; margin-right: 10px; width: 100% - 20px; height: 150px; margin-bottom: 10px; position: relative;" >
+        <span class="mr-auto p-1">Events</span>
+        <!--stretched-link is used in a container with position:relative-->
+        <span><a href="#" class="stretched-link">View</a></span>
+
+      </div>
+
+  <!-- post part 
+  ======================================================================================================================================================================================================-->
+  <div class="row mb-2" style="margin-left: -2px; margin-right: -2px; width: 100%;">
+      <div class="col-md-6">
+        <div class="row no-gutters border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Featured post</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="300" height="262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row no-gutters border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="300" height="262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+          <div class="row no-gutters border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="300" height="262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="300" height="262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            </div>
+          </div>
+        </div>
+  </div>
+  
+</main>
+
+  <!-- About part
+  ===================================================================================================================================================================================================================================================================================================================================================================-->
+    <!--
+      <div class="row section-intro">
+      -->
+  
+      <div class="intro-title">
+            <img src="image/logo.png" alt="Profile Picture" width="100px" style="float: left; margin-bottom: 10px; margin-right: 15px;">
+            <!--
+            <div class="carousel-caption" id="intro-title"> 
+              <h1>HERE IS</h1>      
+              <h1>MCGILL CSSA</h1>
+              <h1>LET'S INTRODUCE OURSELVES</h1>
+            </div> 
+            -->
+            <h1 class="logo">
+                <span class="word1">The</span>
+                <span class="word2">McGill CSSA</span>
+              </h1>
+      </div>
+        <div class="intro-info" >
+            <p class="lead">McGill University Chinese Students and Scholars Association (CSSA), is the only student community certified by the Chinese Embassy on campus, and it is the only cultural club dedicated mainly to students and scholars from Mainland China.</p>
+        </div>
+
+
+
+          <!--
+      </div> 
+    -->
+
+      <!--
+      <div class="row about-content">
+       <div class="col-full">
+         <h3>Our Execs</h3>
+        
+       </div>
+     
+         <div class=" owl-carousel" id="owl-execs">
+             <span class="avatar">
+               <img src="images/execs/mary.jpg" alt="">
+               <h6 class="execname">Mary</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/Lindsey.jpg" alt="">
+               <h6 class="execname">Lindsey</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/mary.jpg" alt="">
+               <h6 class="execname">Mary</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/Lindsey.jpg" alt="">
+               <h6 class="execname">Lindsey</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/mary.jpg" alt="">
+               <h6 class="execname">Mary</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/Lindsey.jpg" alt="">
+               <h6 class="execname">Lindsey</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/mary.jpg" alt="">
+               <h6 class="execname">Mary</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/Lindsey.jpg" alt="">
+               <h6 class="execname">Lindsey</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/mary.jpg" alt="">
+               <h6 class="execname">Mary</h6>
+             </span>
+             <span class="avatar">
+               <img src="images/execs/Lindsey.jpg" alt="">
+               <h6 class="execname">Lindsey</h6>
+             </span>
+       </div>
+      
+
+      </div>
+
+     
+    </section> 
+
+  -->
+
+
+
+
+
+
+
+
+
+    <style>
+    
+        .event-title-box {
+          border: 1px solid green; 
+          margin-left: 3%;
+          margin-right: 3%;
+          width: 1200;
+          height: 200;
+        }
+      
+        .event-title {
+          margin-top: 10px;
+          margin-left: 3%;
+        }
+
+
+        .intro-info {
+          position: relative;
+          top: 10px;
+          text-align: center;
+          margin-top: 40px;
+
+          display: block;
+          width: 1000px;
+          height: 300px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .intro-title {
+          position: relative;
+          top: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 8000/px;
+          display: block; 
+          margin-bottom: 10px;
+          font-size: 200px;
+        }
+
+        .intro-text {
+          font-size: 15px;
+          font-weight: bold;
+        }
+
+
+        .logo {
+          font: 84px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
+          color:crimson;
+          text-transform: uppercase;
+          letter-spacing: -4px;
+        }
+
+        /* stuff for both words */
+        .logo span {
+          position: relative;
+        }
+        
+        .logo span:before,
+        .logo span:after {
+          content: '';
+          position: absolute;
+          border-width: 32px;/* makes a nice, big 64px square */
+          border-style: solid;
+          border-color: transparent;
+          height: 0;
+          z-index: 10;
+        }
+
+        /* stuff for 1st word */
+        .logo .word1 {
+          color:red;
+          margin-right: -38px;
+          transform: rotateY(180deg);/* using Prefix free */
+          display: inline-block;/* required for transform */
+          z-index: 10;/* stack 1st word on top */
+        }
+
+        .logo .word1:before {
+        right: -4px;/* would be left, but we flipped the word */
+        top: -9px;
+        border-top-color:white;;/* match background color */
+        border-right-color: white;/* would be left, but we flipped the word   #282828*/
+        }
+
+        .logo .word1:after {
+        left: 17px;/* would be right, but we flipped the word */
+        bottom: -15px;
+        border-bottom-color: white;
+        border-left-color:white;;/* would be right, but we flipped the word */
+        }
+
+        /* stuff for 2nd word */
+        .logo .word2 {
+          z-index: 0;/* stack 2nd word below */
+        }
+
+        .logo .word2:before {
+          left: -4px;
+          top: -6px;
+          border-top-color:white;
+          border-left-color: white;
+        }
+
+        .logo .word2:after {
+          right: -4px;  
+          bottom: 4px;
+          border-bottom-color: white;
+          border-right-color: white;
+        }
+
+        #navbarMenu {
+          margin: 0 auto;
+          overflow: hidden;
+        }
+        
+        
+        #navbarMenu ul {
+          display: flex;
+          padding: 0;
+        }
+        
+        #navbarMenu ul li a {
+          color: #FFF;
+        }
+
+        #navbarMenu ul li a.nav-link {
+          transform: scale(1); /* use to make things bigger or smaller, can do it in different direction*/
+          transition: 0.8s;
+          display: block;
+        }
+
+        #navbarMenu ul li a.nav-link.hide-item {
+          transform: scale(0); /* scale to 0% */
+        }
+
+        #navbarMenu ul li:nth-child(1) a.nav-link.hide-item {
+          transition-delay: 0.5s;
+        }
+
+        #navbarMenu ul li:nth-child(2) a.nav-link.hide-item {
+          transition-delay: 0.4s;
+        }
+
+        #navbarMenu ul li:nth-child(3) a.nav-link.hide-item {
+          transition-delay: 0.3s;
+        }
+
+        #navbarMenu ul li:nth-child(4) a.nav-link.hide-item {
+          transition-delay: 0.2s;
+        }
+
+        #navbarMenu ul li:nth-child(5) a.nav-link.hide-item {
+          transition-delay: 0.1s;
+        }
+
+        #navbarMenu ul li:nth-child(6) a.nav-link.hide-item {
+          transition-delay: 0s;
+        }
+
+        
+        #navbarMenu ul li:nth-child(1) a.nav-link {
+          transition-delay: 0s;
+        }
+
+        #navbarMenu ul li:nth-child(2) a.nav-link {
+          transition-delay: 0.1s;
+        }
+
+        #navbarMenu ul li:nth-child(3) a.nav-link {
+          transition-delay: 0.2s;
+        }
+
+        #navbarMenu ul li:nth-child(4) a.nav-link {
+          transition-delay: 0.3s;
+        }
+
+        #navbarMenu ul li:nth-child(5) a.nav-link {
+          transition-delay: 0.4s;
+        }
+
+        #navbarMenu ul li:nth-child(6) a.nav-link {
+          transition-delay: 0.5s;
+        }
+
+        .search-form {
+          position: absolute;
+          top: 3;
+          left: 50%;
+          transform: translateX(-50%); 
+          width: 600px;
+          height: 44px;
+          opacity: 0; /* the extent of untransparent */
+          visibility: hidden;
+          transition: 0.8s;
+        }
+
+        .search-form.active {
+          opacity: 1;
+          visibility: visible;
+          transition-delay: 0.5s;
+          transform: translateX(-50%);
+        }
+
+        .search-form input {
+          width: 100%;
+          height: 44px;
+          background: transparent;
+          color: #FFF;
+          border: none;
+          outline: none;
+          font-size: 16px;
+        }
+
+        .search-form:before {
+          content:'\f002'; /* this is a default icon list in fontAwesome */
+          position: absolute;
+          top: 9px;
+          left: -26px;
+          font-size: 18px;
+          color: #fff;
+          font-family: fontAwesome;
+        }
+
+        .search-form input::placeholder {
+          color: #FFF;
+        }
+
+        .close {
+          position: absolute;
+          top: 17px;
+          right: 20px;
+          color: #fff;
+          height: 30px;
+          font-size: 20px;
+          text-align: right;
+          width: 24px;
+          opacity: 0;
+          visibility: hidden;
+          cursor: pointer;
+          
+          /*
+          transform: translateX(-50%); 
+          transition: 0.8s;
+          */
+        }
+
+        .close.active {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        #login {
+          visibility: visible;
+          opacity: 1;
+          transition-delay: 0.5s;
+          transform: translateX(-50%);
+          position: absolute;
+          top: 2px;
+          right: 36px;
+        }
+
+        #login.deactive {
+          visibility: hidden;
+          opacity: 0;
+          transition-delay: 0.5s;
+          transform: translateX(-50%);
+        }
+
+        @media screen and (max-width: 990px) {
+      .width-pc {
+        display: none;
+      }
+    }
+
+    </style>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#search').click(function() {
+          $('.nav-link').addClass('hide-item')
+          $('.search-form').addClass('active')
+          $('.close').addClass('active')
+          $('#login').addClass('deactive')
+          $('#search').hide()
+          $('#login').hide()
+        })
+        $('.close').click(function() {
+          $('.nav-link').removeClass('hide-item')
+          $('.search-form').removeClass('active')
+          $('.close').removeClass('active')
+          $('#login').removeClass('deactive')
+          $('#search').show()
+          $('#login').show()
+        })
+      })
+    </script>
+
+  </body>
+</html>
