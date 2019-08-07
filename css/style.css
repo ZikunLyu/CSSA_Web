@@ -98,7 +98,7 @@
   .logo .word2:before {
     left: -4px;
     top: -6px;
-    border-top-color:white;
+    border-top-color:white
     border-left-color: white;
   }
 
@@ -296,6 +296,11 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+
+    section {
+	    padding: 150px 0;
+    }
+  
   }
 
   @media screen and (max-width: 990px) {
@@ -317,6 +322,10 @@
 }
 
 /* section */
+section {
+	padding: 35px 0 60px;
+}
+
 .section-title {
 	padding-bottom: 30px;
 }
@@ -454,4 +463,10 @@ figure.effect-bubba:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+
+#portfolio {
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-top: -25px;
 }
