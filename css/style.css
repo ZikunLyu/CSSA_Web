@@ -1,121 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
-
-/* navbar */
-.event-title-box {
-    border: 1px solid green; 
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 1200;
-    height: 200;
-  }
-
-  .event-title {
-    margin-top: 10px;
-    margin-left: 3%;
-  }
-
-  .intro-info {
-    position: relative;
-    top: 10px;
-    text-align: center;
-    margin-top: 40px;
-
-    display: block;
-    width: 1000px;
-    height: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .intro-title {
-    position: relative;
-    top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8000/px;
-    display: block; 
-    margin-bottom: 10px;
-    font-size: 200px;
-  }
-
-  .intro-text {
-    font-size: 15px;
-    font-weight: bold;
-  }
-
-
-  .logo {
-    font: 84px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
-    color:crimson;
-    text-transform: uppercase;
-    letter-spacing: -4px;
-  }
-
-  /* stuff for both words */
-  .logo span {
-    position: relative;
-  }
-  
-  .logo span:before,
-  .logo span:after {
-    content: '';
-    position: absolute;
-    border-width: 32px;/* makes a nice, big 64px square */
-    border-style: solid;
-    border-color: transparent;
-    height: 0;
-    z-index: 10;
-  }
-
-  /* stuff for 1st word */
-  .logo .word1 {
-    color:red;
-    margin-right: -38px;
-    transform: rotateY(180deg);/* using Prefix free */
-    display: inline-block;/* required for transform */
-    z-index: 10;/* stack 1st word on top */
-  }
-
-  .logo .word1:before {
-  right: -4px;/* would be left, but we flipped the word */
-  top: -9px;
-  border-top-color:white;;/* match background color */
-  border-right-color: white;/* would be left, but we flipped the word   #282828*/
-  }
-
-  .logo .word1:after {
-  left: 17px;/* would be right, but we flipped the word */
-  bottom: -15px;
-  border-bottom-color: white;
-  border-left-color:white;;/* would be right, but we flipped the word */
-  }
-
-  /* stuff for 2nd word */
-  .logo .word2 {
-    z-index: 0;/* stack 2nd word below */
-  }
-
-  .logo .word2:before {
-    left: -4px;
-    top: -6px;
-    border-top-color:white
-    border-left-color: white;
-  }
-
-  .logo .word2:after {
-    right: -4px;  
-    bottom: 4px;
-    border-bottom-color: white;
-    border-right-color: white;
-  }
-
-
+/*--------------------
+1.1 navbar 
+--------------------*/
 /* navbar button toggle*/
   #navbarMenu {
     margin: 0 auto;
     overflow: hidden;
   }
-  
   
   #navbarMenu ul {
     display: flex;
@@ -185,6 +77,9 @@
     transition-delay: 0.5s;
   }
 
+  /*--------------------
+1.2 navbar search button
+--------------------*/
   .search-form {
     position: absolute;
     top: 3;
@@ -228,6 +123,10 @@
     color: #FFF;
   }
 
+
+  /*--------------------
+  1.3 navbar close button
+  --------------------*/
   .close {
     position: absolute;
     top: 17px;
@@ -269,7 +168,9 @@
     transform: translateX(-50%);
   }
 
-  /**/
+ /*--------------------
+  2 carousel 
+  --------------------*/
   .bd-placeholder-img-carousel {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -292,23 +193,9 @@
   user-select: none;
 }
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-
-    section {
-	    padding: 150px 0;
-    }
-  
-  }
-
-  @media screen and (max-width: 990px) {
-  .width-pc {
-    display: none;
-  }
-}
-
+/*--------------------
+  3 event board
+  --------------------*/
 
 /* content board */
 .row-0-gutter {
@@ -322,7 +209,29 @@
 	padding-right: 0;
 }
 
-/* section */
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  
+  section {
+    padding: 150px 0;/* top right bottom left, if there is no enough defined numbers, 
+                        it means that top and bot are same and right and left are same*/
+  }
+
+}
+
+@media screen and (max-width: 990px) {
+.width-pc {
+  display: none;
+}
+}
+
+
+/*--------------------
+  4 section 
+  --------------------*/
 section {
 	padding: 35px 0 60px;
 }
@@ -348,7 +257,7 @@ section {
 }
 
 /*--------------------
-4.1. About
+5.1. About
 --------------------*/
 .mz-module {
   margin-top: 0px;
@@ -394,7 +303,7 @@ font-size: 37px;
 }
 
 /*--------------------
-4.2. Skills
+5.2. Skills
 --------------------*/
 
 .skills-text h2 {
@@ -446,9 +355,8 @@ font-size: 37px;
 
 
 
-
 /*--------------------
-4.3. Portfolio
+5.3. Portfolio
 --------------------*/
 figure {
 	position: relative;
@@ -564,7 +472,7 @@ figure.effect-bubba:hover p {
 }
 
 /*--------------------
-4.4. Dark Short section (counters, quote, etc)
+5.4. Dark Short section (counters, quote, etc)
 --------------------*/
 
 .light-bg {
@@ -572,7 +480,7 @@ figure.effect-bubba:hover p {
 }
 
 /*--------------------
-4.5. Intro Text
+5.5. Intro Text
 --------------------*/
 
 .intro-section {
@@ -597,7 +505,7 @@ figure.effect-bubba:hover p {
 }
 
 /*--------------------
-4.6. Team
+5.6. Team
 --------------------*/
 
 .team-item {
@@ -627,8 +535,20 @@ font-size: 25px;
 	line-height: 24px;
 }
 
+/*
 #portfolio {
   margin-left: 23px;
   margin-right: 23px;
   
+}
+*/
+
+/* use background instead of using image to fill the carousel*/
+#slide1, #slide2, #slide3 {
+  background: url(../image/reborn1.png) no-repeat scroll  center center;
+  background-size: cover;
+  position: relative;
+  padding-top: 500px;
+  padding-bottom: 190px;
+  width:100%;
 }
