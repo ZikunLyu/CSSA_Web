@@ -306,24 +306,29 @@ font-size: 37px;
 5.2. Skills
 --------------------*/
 
+/*
 .skills-text h2 {
   margin: 0 0 30px;
 }
-
+*/
+/*
 .skillbar-item {
   margin-bottom: 30px;    
 }
+*/
 
 .skillbar-item:last-child {
   margin-bottom: 60px;    
 }
 
+/*
 .skillbar {
   position: relative;
   display: block;
   width: 100%;
 }
-
+*/
+/*
 .skillbar-bar {
   display: block;
   background-color: #FFFFFF;
@@ -332,6 +337,7 @@ font-size: 37px;
   border: 1px solid #D8D8D8;
   border-radius: 10px;
 }
+
 
 .skillbar h3 {
   font-weight: 600;
@@ -352,7 +358,7 @@ font-size: 37px;
   border-radius: 10px;
   border: 1px solid #B91919;
 }
-
+*/
 
 
 /*--------------------
@@ -375,6 +381,9 @@ figcaption {
     height: 100%;	
 }
 
+/* > is used to find the DIRECT children of figcaption in fig 
+ space ' ' means progressive relationship
+*/
 .ot-portfolio-item figure figcaption > a {
     z-index: 1000;
     text-indent: 200%;
@@ -392,7 +401,7 @@ figcaption {
 }
 
 figure.effect-bubba {
-	background: #000;
+	background: black;
 	margin-bottom: 1px;
 }
 
@@ -406,6 +415,10 @@ figure.effect-bubba:hover img {
 	opacity: 0.4;
 }
 
+/*
+::before and ::after are called "psudo-element"
+default is inline element and ::before is 
+*/
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
@@ -414,10 +427,13 @@ figure.effect-bubba figcaption::after {
 	bottom: 30px;
 	left: 30px;
 	content: '';
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
 }
+
+
+/* make a square border inside of the img on top and bot*/
 
 figure.effect-bubba figcaption::before {
 	border-top: 1px solid #fff;
@@ -426,11 +442,17 @@ figure.effect-bubba figcaption::before {
 	transform: scale(0,1);
 }
 
+
+/* make a square border inside of the img on left and right*/
 figure.effect-bubba figcaption::after {
 	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
+  border-left: 1px solid #fff;
+  /* scale in horizontal and vertical */
+  
+  -webkit-transform: scale(1,0); 
+  transform: scale(1,0);
+  
+  
 }
 
 figure.effect-bubba h2 {
@@ -457,19 +479,113 @@ figure.effect-bubba p {
 	transform: translate3d(0,20px,0);
 }
 
+
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
 	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-webkit-transform: scale(1);/* only scale in x-axis */
+	transform: scale(1); /* scale in both x and y axis */
 }
+
 
 figure.effect-bubba:hover h2,
 figure.effect-bubba:hover p {
-	opacity: 1;
+  opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
+
+/*--------------------
+  skill bar 
+--------------------*/
+
+.skillbar {
+	position:relative;
+	display:block;
+  margin-bottom:15px;
+  
+	width:100%;
+	background:#eee;
+	height:35px; /* first 35 */
+
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+
+	/* specifies the name of teh css property the transition effect is for (the transition effect will start when the specified css property changes) */
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	/*
+	background:#6adcfa;
+	*/
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px; /* second 35 */
+	line-height:35px; /* third 35 */
+	/*
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	*/
+	
+}
+
+.skillbar-bar {
+	height:35px; /* forth 35 */
+	
+	width:0px; /* otherwise it will statr from 100% and go down to the final position*/
+	/*
+	background:#6adcfa;
+	*/
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
 
 /*--------------------
 5.4. Dark Short section (counters, quote, etc)

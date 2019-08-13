@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  
+    
     <title>Hello, world!</title>
   </head>
   <!--
@@ -211,7 +211,6 @@
 -->
       <!--
       <div class="theme-card__footer">
-      
         <div class="theme-card__footer__item">
           <a class="theme-card__title mr-1" href="https://themes.getbootstrap.com/product/landkit/">Landkit – Multipurpose Template + UI Kit</a>
           <p class="theme-card__info">
@@ -226,8 +225,6 @@
           </p>
         </div>
       </div>
-      
-
     </div>
   </li>
 
@@ -243,9 +240,8 @@
 
 <!--board tester ==========================================================================================================================================================================-->
 <section id="portfolio">
-
     <div class="container">
-        <div class="row">
+        <div class="row" id="work">
           <div class="col-lg-12 text-center">
             <div class="section-title">
               <h2>Our Works</h2>
@@ -254,7 +250,7 @@
           </div>
         </div>
         
-
+  <!-- row-0-gutter is used to remove the padding and margin between rows-->      
   <div class="row row-0-gutter">
     <!-- start portfolio item -->
     <div class="col-md-6 col-0-gutter">
@@ -285,6 +281,36 @@
       </div>
     </div>
     <!-- end portfolio item -->
+
+    <div class="col-md-6 col-0-gutter">
+        <div class="ot-portfolio-item">
+          <figure class="effect-bubba">
+            <img src="image/reborn2.png" alt="image" class="img-responsive" />
+            <figcaption>
+              <h2>Dean & Letter</h2>
+              <p>Branding, Design</p>
+              <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <!-- end portfolio item -->
+      <!-- start portfolio item -->
+      <div class="col-md-6 col-0-gutter">
+        <div class="ot-portfolio-item">
+          <figure class="effect-bubba">
+            <img src="image/reborn2.png" alt="img02" class="img-responsive" />
+            <figcaption>
+              <h2>Startup Framework</h2>
+              <p>Branding, Web Design</p>
+              <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <!-- end portfolio item -->
+
     <!-- start portfolio item -->
     <div class="col-md-6 col-0-gutter">
         <div class="ot-portfolio-item">
@@ -328,14 +354,18 @@
           </div>
         </div>
       </div>
+
       <div class="row">
+        <!-- total is 12, 6 means devide into two equal parts -->
         <div class="col-md-6 text-center">
           <div class="mz-about-container">
             <p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. Lattes Agency is one of the best in town see more you will be amazed.</p>
           </div>
         </div>
+
+        <!--
         <div class="col-md-6">
-          <!-- skill bar item -->
+         
           <div class="skillbar-item">
             <div class="skillbar" data-percent="90%">
               <h3>Web design</h3>
@@ -345,7 +375,7 @@
               </div>
             </div>
           </div>
-          <!-- skill bar item -->
+         
           <div class="skillbar-item">
             <div class="skillbar" data-percent="80%">
               <h3>Development</h3>
@@ -355,7 +385,7 @@
               </div>
             </div>
           </div>
-          <!-- skill bar item -->
+         
           <div class="skillbar-item">
             <div class="skillbar" data-percent="85%">
               <h3>Photography</h3>
@@ -365,7 +395,7 @@
               </div>
             </div>
           </div>
-          <!-- skill bar item -->
+          
           <div class="skillbar-item">
             <div class="skillbar" data-percent="70%">
               <h3>Marketing</h3>
@@ -377,6 +407,54 @@
           </div>
         </div>
       </div>
+      -->
+
+      <div class="col-md-6" style="margin-bottom: 20px;">
+        <div class="skillbar clearfix" data-percent="40%">
+          <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+          <div class="skillbar-bar" style="background: #e67e22;"></div> <!-- indicate the darker bar -->
+          <div class="skill-bar-percent">8700</div>
+        </div> <!-- End Skill Bar -->
+    
+        <div class="skillbar clearfix" data-percent="25%">
+          <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+          <div class="skillbar-bar" style="background: #3498db;"></div>
+          <div class="skill-bar-percent">25%</div>
+        </div> <!-- End Skill Bar -->
+    
+        <div class="skillbar clearfix" data-percent="50%">
+          <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+          <div class="skillbar-bar" style="background: #2c3e50;"></div>
+          <div class="skill-bar-percent">50%</div>
+        </div> <!-- End Skill Bar -->
+    
+        <!--
+        <div class="skillbar clearfix" data-percent="40%">
+          <div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+          <div class="skillbar-bar" style="background: #5a68a5;"></div>
+          <div class="skill-bar-percent">40%</div>
+        </div> 
+    
+        <div class="skillbar clearfix" data-percent="75%">
+          <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+          <div class="skillbar-bar" style="background: #525252;"></div>
+          <div class="skill-bar-percent">75%</div>
+        </div> 
+      -->
+        <div class="skillbar clearfix" data-percent="100%">
+          <div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>
+          <div class="skillbar-bar" style="background: #2ecc71;"></div>
+          <div class="skill-bar-percent">100%</div>
+        </div> <!-- End Skill Bar -->
+    
+        <div class="skillbar clearfix" data-percent="70%">
+          <div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+          <div class="skillbar-bar" style="background: #4288d0;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+      </div>
+    </div>
+
       <div class="row row-0-gutter">
         <!-- about module -->
         <div class="col-md-3 col-0-gutter mz-about-default text-center">
@@ -386,6 +464,7 @@
           </div>
         </div>
         <!-- end about module -->
+
         <!-- about module -->
         <div class="col-md-3 col-0-gutter mz-about-dark text-center">
           <div class="mz-module-about">
@@ -394,6 +473,7 @@
           </div>
         </div>
         <!-- end about module -->
+
         <!-- about module -->
         <div class="col-md-3 col-0-gutter mz-about-default text-center">
           <div class="mz-module-about">
@@ -402,6 +482,7 @@
           </div>
         </div>
         <!-- end about module -->
+
         <!-- about module -->
         <div class="col-md-3 col-0-gutter mz-about-dark text-center">
           <div class="mz-module-about">
@@ -410,6 +491,7 @@
           </div>
         </div>
         <!-- end about module -->
+
       </div>
     </div>
     <!-- /.container -->
@@ -478,12 +560,25 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <!--
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/theme-scripts.js"></script>
+    -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     
     <script type="text/javascript">
+      /*
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin: 'bottom'
+      });
+*/
       $(document).ready(function () {
+
         $('#search').click(function() {
           $('.nav-link').addClass('hide-item')
           $('.search-form').addClass('active')
@@ -500,6 +595,11 @@
           $('#search').show()
           $('#login').show()
         })
+        $('.skillbar').each(function(){
+					$(this).find('.skillbar-bar').animate({
+						width:jQuery(this).attr('data-percent')
+					},6000);
+				})
       })
     </script>
 
