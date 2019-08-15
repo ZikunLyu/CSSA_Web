@@ -129,8 +129,10 @@
   --------------------*/
   .close {
     position: absolute;
-    top: 17px;
-    right: 20px;
+    
+    top: 18px;
+    
+    right: 66px;
     color: #fff;
     height: 30px;
     font-size: 20px;
@@ -156,9 +158,11 @@
     opacity: 1;
     transition-delay: 0.5s;
     transform: translateX(-50%);
+    /*
     position: absolute;
     top: 2px;
     right: 36px;
+    */
   }
 
   #login.deactive {
