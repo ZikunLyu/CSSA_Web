@@ -25,6 +25,7 @@
     
     <title>Membership</title>
   </head>
+
   
   <body>
   
@@ -42,14 +43,14 @@
         </button>
         <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
            ml-auto to move element to the irght (add margin to left -> move to right)-->
-        <div class="collapse navbar-collapse" id="navbarMenu">
+        <div class="collapse navbar-collapse" id="navbarMenu" style="height: 50px">
 
           <ul class="navbar-nav nav-fill w-100">
 
             <li class="nav-item">
               <a href="index.html" class="nav-link">
                 <span>
-                    <img src="image/logo.gif" alt="Medigo by templatemo">
+                    <img src="image/logo.gif" alt="Medigo by templatemo" >
                 </span>  
               </a>
             </li>
@@ -59,34 +60,33 @@
               <a href="index.html" class="nav-link">McGill CSSA</a>
             </li>
             -->
-            <li class="nav-item" >
-              <a href="about.html" class="nav-link">About Us</a>
+            <li class="nav-item hoverr" >
+              <a href="about.html" class="nav-link " style="position: relative;top: 50%;transform: translateY(-50%); ">About Us</a>                            <!--Why must use in-line css-->
             </li>
             
             <li class="nav-item" >
-              <a href="family.html" class="nav-link">CSSA Family</a>
+              <a href="family.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">CSSA Family</a>
             </li>
             
             <li class="nav-item" >
-              <a href="events.html" class="nav-link">Events</a>
+              <a href="events.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Events</a>
             </li>
             <li class="nav-item" >
-              <a href="sponsors.html" class="nav-link">Sponsors</a>
+              <a href="sponsors.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Sponsors</a>
             </li>
-            <li class="nav-item" >
-              <a href="membership.html" class="nav-link">Membership</a>
+            <li class="nav-item navbar-toggler:hover" >
+              <a href="membership.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Membership</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="contact.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Contact</a>
             </li>
-            <li class="nav-item width-pc"> 
-              <a href="#" id="search" class="nav-item">
-                <span class="nav-link">
+            <li class="nav-item width-pc" style="position: relative;top: 50%;transform: translateY(10%)">                                                   <!--Why 10%?-->
+                <span class="nav-link" >
                   <i class="fa fa-search" style="color: white;"></i>
               </span>
               </a>
             </li>
-            <li class="nav-item width-pc">
+            <li class="nav-item width-pc" style="position: relative;top: 50%;transform: translateY(10%)">
               <a href="#" id="login">
                 <span class="nav-link">
                   <i class="fa fa-shopping-basket" style="color: white;"></i>
@@ -96,9 +96,9 @@
           </ul>
 
         <div class="search-form">
-          <form>
+          <input>
             <!--placeholder is a hint appearing before user enter anything-->
-            <input type="text" name="" placeholder="Search keywords">
+              <input type="text" name="" placeholder="Search keywords">
           </form>
         </div>
 
