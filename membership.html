@@ -23,12 +23,10 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     
     
-    <title>Membership</title>
+    <title>Hello, world!</title>
   </head>
-
-  
+ 
   <body>
-  
     <!-- Menu part 
     =================================================================================================================================-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
@@ -43,14 +41,14 @@
         </button>
         <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
            ml-auto to move element to the irght (add margin to left -> move to right)-->
-        <div class="collapse navbar-collapse" id="navbarMenu" style="height: 50px">
+        <div class="collapse navbar-collapse" id="navbarMenu">
 
           <ul class="navbar-nav nav-fill w-100">
 
             <li class="nav-item">
               <a href="index.html" class="nav-link">
                 <span>
-                    <img src="image/logo.gif" alt="Medigo by templatemo" >
+                    <img src="image/logo.gif" alt="Medigo by templatemo">
                 </span>  
               </a>
             </li>
@@ -60,33 +58,34 @@
               <a href="index.html" class="nav-link">McGill CSSA</a>
             </li>
             -->
-            <li class="nav-item hoverr" >
-              <a href="about.html" class="nav-link " style="position: relative;top: 50%;transform: translateY(-50%); ">About Us</a>                            <!--Why must use in-line css-->
+            <li class="nav-item" >
+              <a href="about.html" class="nav-link">About Us</a>
             </li>
             
             <li class="nav-item" >
-              <a href="family.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">CSSA Family</a>
+              <a href="family.html" class="nav-link">CSSA Family</a>
             </li>
             
             <li class="nav-item" >
-              <a href="events.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Events</a>
+              <a href="events.html" class="nav-link">Events</a>
             </li>
             <li class="nav-item" >
-              <a href="sponsors.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Sponsors</a>
+              <a href="sponsors.html" class="nav-link">Sponsors</a>
             </li>
-            <li class="nav-item navbar-toggler:hover" >
-              <a href="membership.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Membership</a>
+            <li class="nav-item" >
+              <a href="membership.html" class="nav-link">Membership</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link" style="position: relative;top: 50%;transform: translateY(-50%);">Contact</a>
+              <a href="contact.html" class="nav-link">Contact</a>
             </li>
-            <li class="nav-item width-pc" style="position: relative;top: 50%;transform: translateY(10%)">                                                   <!--Why 10%?-->
-                <span class="nav-link" >
+            <li class="nav-item width-pc"> 
+              <a href="#" id="search" class="nav-item">
+                <span class="nav-link">
                   <i class="fa fa-search" style="color: white;"></i>
               </span>
               </a>
             </li>
-            <li class="nav-item width-pc" style="position: relative;top: 50%;transform: translateY(10%)">
+            <li class="nav-item width-pc">
               <a href="#" id="login">
                 <span class="nav-link">
                   <i class="fa fa-shopping-basket" style="color: white;"></i>
@@ -96,15 +95,16 @@
           </ul>
 
         <div class="search-form">
-          <input>
+          <form>
             <!--placeholder is a hint appearing before user enter anything-->
-              <input type="text" name="" placeholder="Search keywords">
+            <input type="text" name="" placeholder="Search keywords">
           </form>
         </div>
 
         <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>    
       </div>
     </nav>
+
 
 
   <header>
@@ -712,80 +712,9 @@
     </div>
   </div>
 
-  
-    <script>
-      /* */
-      window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
-          duration: 2000,
-          origin: 'bottom'
-        });
-
-        sr.reveal('#work', {
-          duration: 2000,
-          origin: 'bottom',
-          viewFactor: 0.2
-        });
-
-        sr.reveal('#left_1, #left_2, #left_3',{
-          duration: 1800,
-          origin: 'left',
-          distance: '150px',
-          viewFactor: 0.2
-        });
-
-        sr.reveal('#right_1, #right_2, #right_3',{
-          duration: 1800,
-          origin: 'right',
-          distance: '150px',
-          viewFactor: 0.2
-        });
-
-        sr.reveal('#about_part' ,{
-          duration: 2000,
-          origin: 'bottom',
-          viewFactor: 0.2
-        });
-
-        var $about = $('#about_part');
-        $about.waypoint(function () {
-          $('.skillbar').each(function(){
-					$(this).find('.skillbar-bar').animate({
-						width:jQuery(this).attr('data-percent')
-					},6000);
-				})
-        },{offset:'90%'})
-        
-    </script>
 
 
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#search').click(function() {
-          $('.nav-link').addClass('hide-item')
-          $('.search-form').addClass('active')
-          $('.close').addClass('active')
-          $('#login').addClass('deactive')
-          $('#search').hide()
-          $('#login').hide()
-        })
-        $('.close').click(function() {
-          $('.nav-link').removeClass('hide-item')
-          $('.search-form').removeClass('active')
-          $('.close').removeClass('active')
-          $('#login').removeClass('deactive')
-          $('#search').show()
-          $('#login').show()
-        })
-        /*
-        $('.skillbar').each(function(){
-					$(this).find('.skillbar-bar').animate({
-						width:jQuery(this).attr('data-percent')
-					},6000);
-				})
-        */
-      })
-    </script>
+  <script src="js/plugin.js" type="text/javascript"></script>
 
   </body>
 </html>
