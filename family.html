@@ -12,16 +12,18 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
-
-
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    
 
     <!--
-	  <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
       -->
  
     <!--this need to be placed after jQuery-->
@@ -30,6 +32,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/jquery.fancybox.min.js"></script>
+   
+
 
     
     <script src="js/plugins.js"></script>
@@ -144,321 +148,130 @@
     content 
   ================================================================================================================================--> 
 
-  <div class="container">	
-        <div class="row">
-          <div class="col-md-12">
-            <ul id="filters" class="mixitup-controls">
-              <li class="filter" data-filter=".2019-2020, .2018-2019, .2017-2018">All</li>
-              <li class="filter" data-filter=".2019-2020">2019-2020</li>
-              <li class="filter" data-filter=".2018-2019">2018-2019</li>
-              <li class="filter" data-filter=".2017-2018">2017-2018</li>
-            </ul>
-          </div> 
-        </div> 
-    </div> 
-  
-
-    <div class="container">
-        <div class="row" id="portfoliolist">
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix icon" data-cat="icon">
-              <div class="thumb-post">
-                <!--
-                <div class="column 2019-2020">
-                    -->
-                <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"></a>
-              </div>
-              <!--
-            </div>
-              -->
-          </div> 
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix card" data-cat="card">
-              <div class="thumb-post">
-                <!--
-                <div class="column 2019-2020">
-                  -->
-                  <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"></a>
-                </div>
-                <!--
-              </div>
-              -->
-          </div> 
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix app" data-cat="app">
-              <div class="thumb-post">
-                <!--
-                <div class="column 2019-2020">
-                  -->
-                  <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"></a>
-                </div>
-                <!--
-              </div>
-                -->
-          </div> 
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix app" data-cat="app">
-              <div class="thumb-post"> 
-                <!--
-                <div class="column 2019-2020">
---> 
-                  <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"></a>
-                </div>
-                <!--
-              </div>
-              -->
-          </div> 
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix app" data-cat="app">
-              <div class="thumb-post">
-                <!--
-                <div class="column 2019-2020">
+<div class="filters-button-group">
+  <button class="btn is-checked" data-filter="*">All</button>
+  <button class="btn" data-filter=".2019-2020">2019-2020</button>
+  <button class="btn" data-filter=".2018-2019">2018-2019</button>
+  <button class="btn" data-filter=".2017-2018">2017-2018</button>
+  <!--
+  <button class="btn" data-filter=":not(.2019-2020):not(.2018-2019):not(2017-2018)">Before 2017</button>
 -->
-                  <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"></a>
-                </div>
-                <!--
-              </div>
-              -->
-          </div> 
+</div>
 
-          <div class="portfolio-post col-sm-6 col-md-4 mix app" data-cat="app">
-              <div class="thumb-post">
-                <!--
-                <div class="column 2019-2020">
-                  -->
-                  <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"></a>
-                </div>
-                <!--
-              </div>
-              -->
-          </div> 
+<div class="container">
+<div class="row">
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2017-2018" data-category="2017-2018">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 alkaline-earth 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 transition 2019-2020" data-category="2019-2020">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(100).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(100).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(40).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(40).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(30).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(30).jpg"></a>
+    </div>
+  </div>
+  <div class="portfolio-post col-sm-6 col-md-4 " data-category="Before 2017">
+    <div class="thumb-post">
+      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(114).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(114).jpg"></a>
+    </div>
+  </div>
+</div>
+</div>
 
-          <div class="portfolio-post col-sm-6 col-md-4 mix icon" data-cat="icon">
-              <div class="thumb-post">
-                <!--
-                  <div class="column 2019-2020">
-                    -->
-                    <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"></a>
-                  </div>
-                  <!--
-              </div>
-              -->
-          </div> 
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix logo" data-cat="logo">
-              <div class="thumb-post"> 
-                <!--
-                  <div class="column 2019-2020">
-                    -->
-                    <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"></a>
-                  </div>
-                  <!--
-              </div>
-              -->
-          </div> 
-
-          <div class="portfolio-post col-sm-6 col-md-4 mix logo" data-cat="logo">
-              <div class="thumb-post"> 
-                <!--
-                  <div class="column 2019-2020">
-                    -->
-                    <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
-                  </div>
-                  <!--
-              </div>
-              -->
-          </div> 
-
-    <!--
-            <div class="portfolio-post col-sm-6 col-md-4 mix branding">
-              
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Branding</span>
-                                        <h3 class="portfolio-title"><a href="project-slideshow.html">Compass Template</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="image/project2.jpg" title="Compass Template">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="image/project2.jpg" alt="Compass Template">
-              </div>
-
-            </div> 
-    
-            <div class="portfolio-post col-sm-6 col-md-4 mix illustration">
-              
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Illustration</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Awesome Theme</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="image/project2.jpg" title="Awesome Theme">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="image/project2.jpg" alt="Awesome Theme">
-              </div>
-              
-            </div> 
-    
-            <div class="portfolio-post col-sm-6 col-md-4 mix illustration">
-
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Illustration</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Volton Personal Site</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="image/project2.jpg" title="Volton Personal Site">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="image/project2.jpg" alt="Volton Personal Site">
-              </div>
-
-            </div> 
-
-            <div class="portfolio-post col-sm-6 col-md-4 mix business">
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Business</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Rectangle Design</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="images/includes/project5.jpg" title="Rectangle Design">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/includes/project5.jpg" alt="Rectangle Design">
-              </div>
-            </div> 
-    
-            <div class="portfolio-post col-sm-6 col-md-4 mix branding">
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Branding</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Masonry Gallery</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="images/includes/project6.jpg" title="Masonry Gallery">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/includes/project6.jpg" alt="Masonry Gallery">
-              </div>
-            </div> 
-    
-            <div class="portfolio-post col-sm-6 col-md-4 mix branding identity">
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Branding / Identity</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Gloss Template</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="images/includes/project7.jpg" title="Gloss Template">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/includes/project7.jpg" alt="Gloss Template">
-              </div>
-            </div> 
-    
-            <div class="portfolio-post col-sm-6 col-md-4 mix identity illustration">
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Identity / Illustration</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Ion Template</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="images/includes/project8.jpg" title="Ion Template">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/includes/project8.jpg" alt="Ion Template">
-              </div>
-            </div> 
-    
-            <div class="portfolio-post col-sm-6 col-md-4 mix branding">
-              <div class="thumb-post">
-                <div class="overlay">
-                                <div class="overlay-inner">
-                                    <div class="portfolio-infos">
-                                        <span class="meta-category">Branding</span>
-                                        <h3 class="portfolio-title"><a href="family.html">Freshness</a></h3>
-                                    </div>
-                                    <div class="portfolio-expand">
-                                        <a class="fancybox" href="images/includes/project9.jpg" title="Freshness">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/includes/project9.jpg" alt="Freshness">
-              </div>
-            </div> 
-            -->
-         <!--
-          </div> 
-          -->   
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-
-
-      <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <ul class="pages">
-                <li><a href="#" class="active">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">...</a></li>
-                <li><a href="#">13</a></li>
-              </ul>
-            </div> <!-- /.col-md-12 -->
-          </div> <!-- /.row -->
-        </div> <!-- /.container -->
-      
-
-   
-  <p id="back-top">
-    <a href="#top"><i class="fa fa-angle-up"></i></a>
-  </p> 
-
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="pages">
+        <li><a href="#" class="active">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">13</a></li>
+      </ul>
+    </div> <!-- /.col-md-12 -->
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
 
 </main>
 
+  <p id="back-top">
+    <a href="#top"><i class="fa fa-angle-up"></i></a>
+  </p> 
 
   <footer>
     <div class="container text-center">
