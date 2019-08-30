@@ -25,11 +25,43 @@
     
     <title>Hello, world!</title>
   </head>
-  
+  <!--
+    Bootstrap has a wide range of responsive margin and padding utility classes. They work for all breakpoints:
+      xs (<=576px), sm (>=576px), md (>=768px), lg (>=992px) or xl (>=1200px))
+    The classes are used in the format:
+      {property}{sides}-{size} for xs & {property}{sides}-{breakpoint}-{size} for sm, md, lg, and xl.
+    m - sets margin
+    p - sets padding
+    t - sets margin-top or padding-top
+    b - sets margin-bottom or padding-bottom
+    l - sets margin-left or padding-left
+    r - sets margin-right or padding-right
+    x - sets both padding-left and padding-right or margin-left and margin-right
+    y - sets both padding-top and padding-bottom or margin-top and margin-bottom
+    blank - sets a margin or padding on all 4 sides of the element
+    0 - sets margin or padding to 0
+    1 - sets margin or padding to .25rem (4px if font-size is 16px)
+    2 - sets margin or padding to .5rem (8px if font-size is 16px)
+    3 - sets margin or padding to 1rem (16px if font-size is 16px)
+    4 - sets margin or padding to 1.5rem (24px if font-size is 16px)
+    5 - sets margin or padding to 3rem (48px if font-size is 16px)
+    auto - sets margin to auto
+  -->
   <body>
+    <!--
+    <div class="navbar navbar-static-top navbar-light"></div>
+      <div class="container-fluid"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header"></button>
+    -->
+    <!--the flex direction is column as default -->
+    <!--add navbar-expand to tell it we only need it show in the nav bar instead of a dropdown mene 
+      -lg means it only works on a big screen (it will disapear when you go below a certain size)
+      -sm for small device 
+    -->
+    
     <!-- Menu part 
     =================================================================================================================================-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
         <!-- href = "#" means it leads to nowhere, coz you havent filled the address -->
         <!--
         <a href="index.html" class="navbar-brand" style="width:10%">McGill CSSA</a>
@@ -94,8 +126,18 @@
             </li>
           </ul>
 
+        <div class="search-form">
+          <form>
+            <!--placeholder is a hint appearing before user enter anything-->
+            <input type="text" name="" placeholder="Search keywords">
+          </form>
+        </div>
 
-  <header>
+        <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>    
+      </div>
+    </nav>
+
+
       <!--carousel part  
       ===================================================================================================================================================================-->
       <!--margin-left: 53pt; margin-right: 53pt;-->
@@ -160,70 +202,9 @@
             </a>
         </div>    
       </div>
-  </header>
+
 
   <main role="main">    
-
-  <!-- event and view more bar
-  ===============================================================================================================================================================================================================-->
-  <!-- 
-  <div class="d-flex row no-gutters border flex-md-row shadow-sm" id="event-top-bar"
-      style="margin-top: 10px; margin-left: 10px; margin-right: 10px; width: 100% - 20px; height: 150px; position: relative;" >
-        <span class="mr-auto p-1">Events</span>
-         -->   
-        <!--stretched-link is used in a container with position:relative-->
-      <!--
-        <span><a href="#" class="stretched-link">View</a></span>
-    
-      </div>
-    -->  
-
-<!--
-  2 * 2 board, but donno how to get fix the gap between columns without hardcoding ======================================================================================================================================================================
-<ul class="row border" style="list-style-type: none; width: 1260px; margin-left: auto; margin-right: auto;">
-
-  <li class="col-6 border">
-    <div class="theme-card">
-      <div class="theme-card__body">
-        
-        <a class="d-block" href="https://themes.getbootstrap.com/product/landkit/">
-          
-          <img width="600" style="visibility: hidden; display: block; margin-left: -14px;" height="450" src="image/reborn2.png" />           
-     
-        </a>
-        
-        <a class="theme-card__body__overlay btn btn-brand btn-sm" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=23273">Live preview</a>
-       
-      </div>
--->
-      <!--
-      <div class="theme-card__footer">
-        <div class="theme-card__footer__item">
-          <a class="theme-card__title mr-1" href="https://themes.getbootstrap.com/product/landkit/">Landkit – Multipurpose Template + UI Kit</a>
-          <p class="theme-card__info">
-            <ul class="prod_cats_list">
-              <li><a href="https://themes.getbootstrap.com/product-category/landing-corporate/">Landing &amp; Corporate</a></li>
-            </ul>                
-          </p>
-        </div>
-        <div class="theme-card__footer__item">
-          <p class="theme-card__price"><span class="woocommerce-Price-amount amount">
-            <span class="woocommerce-Price-currencySymbol">&#36;</span>49.00</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </li>
-
-  <li class="col-6 border">
-    <div class="theme-card">
-        <div class="theme-card__body">
-            <img width="600" style="visibility: hidden;; display: block;" height="450" src="image/reborn2.png" />           
-        </div>
-    </div>
-  </li>
-</ul>
--->
 
 <!--board tester ==========================================================================================================================================================================-->
 <section id="portfolio">
@@ -541,9 +522,9 @@
           </div>
         </div>
       </section>
-
 </main>
 
+<!--  contact form-->
 <section id="contact">
     <div class="container">
       <div class="row">
@@ -591,12 +572,14 @@
       </div>
     </div>
   </section>
+
+  
   <p id="back-top">
     <a href="#top"><i class="fa fa-angle-up"></i></a>
   </p>
   <footer>
     <div class="container text-center">
-      <p>Designed by <span style="color:gold">McGill CSSA</span></p>
+        <p>Designed by <span style="color:gold">McGill CSSA</span></p>
     </div>
   </footer>
 
@@ -700,7 +683,26 @@
     </div>
   </div>
 
-  <script src="js/plugin.js" type="text/javascript"></script>
+  <div class="modal fade" id="Modal-6" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="Modal-label-5">Fast People</h4>
+          </div>
+          <div class="modal-body">
+            <img src="images/demo/portfolio-5.jpg" alt="img01" class="img-responsive" />
+            <div class="modal-works"><span>Branding</span><span>Web Design</span></div>
+            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+<script src="js/plugin.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
   </body>
 </html>

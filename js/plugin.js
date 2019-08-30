@@ -1,4 +1,11 @@
 $(document).ready(function () {
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin: 'bottom'
+       });
+
+
      $('#search').click(function() {
        $('.nav-link').addClass('hide-item')
        $('.search-form').addClass('active')

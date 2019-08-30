@@ -1,10 +1,5 @@
 $(document).ready(function () {
-       window.sr = ScrollReveal();
-       sr.reveal('.navbar', {
-         duration: 2000,
-         origin: 'bottom'
-       });
-
+       
        sr.reveal('#work', {
          duration: 2000,
          origin: 'bottom',
