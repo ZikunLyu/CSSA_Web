@@ -1152,3 +1152,16 @@ body {
   margin-bottom: 16px;
   margin-left: 86px;
 }
+/*header*/
+.headertitle {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
