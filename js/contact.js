@@ -94,6 +94,7 @@ $(document).ready(function(){
         var $info = $('#mapBox').data('info');
         var $markerLat = $('#mapBox').data('mlat');
         var $markerLon = $('#mapBox').data('mlon');
+        
         var map = new GMaps({
         el: '#mapBox',
         lat: $lat,
@@ -291,7 +292,20 @@ $(document).ready(function(){
                 }
             ]
         });
+
+        var marker = new google.maps.Marker({
+            el: '#mapBox',
+            mlat: $markerLat,
+            mlng: $markerLon,
+
+
+            position: {lat: mlat, lng: mlng},
+            map: map,
+            title: 'McGill CSSA'
+          });
     }
+
+	
 	
         
  })(jQuery)
