@@ -1,254 +1,297 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!--responsive web "viewport"-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, 
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!--responsive web "viewport"-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, 
     shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
-    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-    <!--
+
+
+  <!--
     <script src="/js/isotope.pkgd.min.js"></script>
       -->
- 
-    <!--this need to be placed after jQuery-->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-   
+
+  <!--this need to be placed after jQuery-->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
 
 
-    
-    <script src="js/plugins.js"></script>
-    
-    
-    <title>Hello, world!</title>
-  </head>
-  
-  <body>
-    
-    <!-- Menu part 
+
+
+  <script src="js/plugins.js"></script>
+
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!-- Menu part 
     =================================================================================================================================-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
-        <!-- href = "#" means it leads to nowhere, coz you havent filled the address -->
-        <!--
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+    <!-- href = "#" means it leads to nowhere, coz you havent filled the address -->
+    <!--
         <a href="index.html" class="navbar-brand" style="width:10%">McGill CSSA</a>
         -->
-        <!-- we can add a toggle button (dropdown menu when you go below a certain size)-->
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" 
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
+    <!-- we can add a toggle button (dropdown menu when you go below a certain size)-->
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
            ml-auto to move element to the irght (add margin to left -> move to right)-->
-        <div class="collapse navbar-collapse" id="navbarMenu">
+    <div class="collapse navbar-collapse" id="navbarMenu">
 
-          <ul class="navbar-nav nav-fill w-100">
+      <ul class="navbar-nav nav-fill w-100">
 
-            <li class="nav-item">
-              <a href="index.html" class="nav-link" id="logo">
-                <span>
-                    <img src="image/logo.gif" alt="Medigo by templatemo">
-                </span>  
-              </a>
-            </li>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link" id="logo">
+            <span>
+              <img src="image/logo.gif" alt="Medigo by templatemo">
+            </span>
+          </a>
+        </li>
 
-            <li class="nav-item" >
-              <a href="about.html" class="nav-link">About Us</a>
-            </li>
-            
-            <li class="nav-item" >
-              <a href="family.html" class="nav-link">CSSA Family</a>
-            </li>
-            
-            <li class="nav-item" >
-              <a href="events.html" class="nav-link">Events</a>
-            </li>
-            <li class="nav-item" >
-              <a href="sponsors.html" class="nav-link">Sponsors</a>
-            </li>
-            <li class="nav-item" >
-              <a href="membership.html" class="nav-link">Membership</a>
-            </li>
-            <li class="nav-item" >
-              <a href="contact.html" class="nav-link">Contact</a>
-            </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About Us</a>
+        </li>
 
-            <li class="nav-item width-pc"> 
-              <a href="#" id="search" class="nav-link">
-                <span>
-                  <i class="fa fa-search" style="color: white;"></i>
-              </span>
-              </a>
-            </li>
-            <li class="nav-item width-pc">
-              <a href="#" id="login" class="nav-link">
-                <span>
-                  <i class="fa fa-shopping-basket" style="color: white;"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
+        <li class="nav-item">
+          <a href="family.html" class="nav-link">CSSA Family</a>
+        </li>
 
-        <div class="search-form">
-          <form>
-            <!--placeholder is a hint appearing before user enter anything-->
-            <input type="text" name="" placeholder="Search keywords">
-          </form>
-        </div>
+        <li class="nav-item">
+          <a href="events.html" class="nav-link">Events</a>
+        </li>
+        <li class="nav-item">
+          <a href="sponsors.html" class="nav-link">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a href="membership.html" class="nav-link">Membership</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
 
-        <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>    
+        <li class="nav-item width-pc">
+          <a href="#" id="search" class="nav-link">
+            <span>
+              <i class="fa fa-search" style="color: white;"></i>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item width-pc">
+          <a href="#" id="login" class="nav-link">
+            <span>
+              <i class="fa fa-shopping-basket" style="color: white;"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="search-form">
+        <form>
+          <!--placeholder is a hint appearing before user enter anything-->
+          <input type="text" name="" placeholder="Search keywords">
+        </form>
       </div>
-    </nav>
+
+      <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>
+    </div>
+  </nav>
 
 
-    <header>
-        <!-- decoration bar -->
-          <div class="first-widget parallax" id="portfolio_family">
-              <div class="parallax-overlay"> 
-                <div class="container pageTitle">
-                  
-                  <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                      <h2 class="page-title">Our Portfolio</h2>
-                    </div> 
-                    <div class="col-md-6 col-sm-6 text-right">
-                      <span class="page-location">Home / Portfolio</span>
-                    </div> 
-                  </div> 
-                </div> 
-              </div> <!-- /.parallax-overlay -->
-          </div> <!-- /.pageTitle -->
-      </header>
+  <header>
+    <!-- decoration bar -->
+    <div class="first-widget parallax" id="portfolio_family">
+      <div class="parallax-overlay">
+        <div class="container pageTitle">
 
-<main>   
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <h2 class="page-title">Our Portfolio</h2>
+            </div>
+            <div class="col-md-6 col-sm-6 text-right">
+              <span class="page-location">Home / Portfolio</span>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.parallax-overlay -->
+    </div> <!-- /.pageTitle -->
+  </header>
 
- <!--=================================================================================================================================
+  <main>
+
+    <!--=================================================================================================================================
     content 
-  ================================================================================================================================--> 
+  ================================================================================================================================-->
 
-<div class="filters-button-group">
-  <button class="btn is-checked" data-filter="*">All</button>
-  <button class="btn" data-filter=".2019-2020">2019-2020</button>
-  <button class="btn" data-filter=".2018-2019">2018-2019</button>
-  <button class="btn" data-filter=".2017-2018">2017-2018</button>
-  <!--
+    <div class="filters-button-group">
+      <button class="btn is-checked" data-filter="*">All</button>
+      <button class="btn" data-filter=".2019-2020">2019-2020</button>
+      <button class="btn" data-filter=".2018-2019">2018-2019</button>
+      <button class="btn" data-filter=".2017-2018">2017-2018</button>
+      <!--
   <button class="btn" data-filter=":not(.2019-2020):not(.2018-2019):not(2017-2018)">Before 2017</button>
 -->
-</div>
+    </div>
 
-<div class="container">
-<div class="row">
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"></a>
+    <div class="container">
+      <div class="row">
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2017-2018" data-category="2017-2018">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 alkaline-earth 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 transition 2019-2020" data-category="2019-2020">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(100).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(100).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(40).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(40).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(30).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(30).jpg"></a>
+          </div>
+        </div>
+        <div class="portfolio-post col-sm-6 col-md-4 " data-category="Before 2017">
+          <div class="thumb-post">
+            <a data-fancybox="gallery"
+              href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(114).jpg"><img
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(114).jpg"></a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2017-2018" data-category="2017-2018">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 alkaline-earth 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 transition 2019-2020" data-category="2019-2020">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(108).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(100).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(100).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(40).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(40).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 2018-2019" data-category="2018-2019">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(30).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(30).jpg"></a>
-    </div>
-  </div>
-  <div class="portfolio-post col-sm-6 col-md-4 " data-category="Before 2017">
-    <div class="thumb-post">
-      <a data-fancybox="gallery" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(114).jpg"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(114).jpg"></a>
-    </div>
-  </div>
-</div>
-</div>
-<!--
+    <!--
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -263,17 +306,27 @@
   </div> 
 </div> 
 -->
-</main>
+  </main>
 
   <p id="back-top">
     <a href="#top"><i class="fa fa-angle-up"></i></a>
-  </p> 
+  </p>
 
   <footer>
     <div class="container text-center">
       <p>Designed by <span style="color:gold">McGill CSSA</span></p>
     </div>
   </footer>
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span>
+  </div>
+
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
   <script src="js/plugin.js" type="text/javascript"></script>
 
@@ -288,5 +341,6 @@
   <script src="js/family.js" type="text/javascript"></script>
 
 
-  </body>
+</body>
+
 </html>

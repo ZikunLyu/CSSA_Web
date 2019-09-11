@@ -1,134 +1,142 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!--responsive web "viewport"-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, 
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!--responsive web "viewport"-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, 
     shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
- 
-    <!--this need to be placed after jQuery-->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
 
-    <link rel="stylesheet" href="vendors/linericon/style.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
-    <title>Hello, world!</title>
-  </head>
- 
-  <body>
+  <!--this need to be placed after jQuery-->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- Menu part 
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+  <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+  <link rel="stylesheet" href="vendors/animate-css/animate.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!-- Menu part 
     =================================================================================================================================-->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
-        <!-- href = "#" means it leads to nowhere, coz you havent filled the address -->
-        <!--
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+    <!-- href = "#" means it leads to nowhere, coz you havent filled the address -->
+    <!--
         <a href="index.html" class="navbar-brand" style="width:10%">McGill CSSA</a>
         -->
-        <!-- we can add a toggle button (dropdown menu when you go below a certain size)-->
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" 
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
+    <!-- we can add a toggle button (dropdown menu when you go below a certain size)-->
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- mr-auto is used to move element to the left (add margin to right -> move to left)
            ml-auto to move element to the irght (add margin to left -> move to right)-->
-        <div class="collapse navbar-collapse" id="navbarMenu">
+    <div class="collapse navbar-collapse" id="navbarMenu">
 
-          <ul class="navbar-nav nav-fill w-100">
+      <ul class="navbar-nav nav-fill w-100">
 
-            <li class="nav-item">
-              <a href="index.html" class="nav-link" id="logo">
-                <span>
-                    <img src="image/logo.gif" alt="Medigo by templatemo">
-                </span>  
-              </a>
-            </li>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link" id="logo">
+            <span>
+              <img src="image/logo.gif" alt="Medigo by templatemo">
+            </span>
+          </a>
+        </li>
 
-            <li class="nav-item" >
-              <a href="about.html" class="nav-link">About Us</a>
-            </li>
-            
-            <li class="nav-item" >
-              <a href="family.html" class="nav-link">CSSA Family</a>
-            </li>
-            
-            <li class="nav-item" >
-              <a href="events.html" class="nav-link">Events</a>
-            </li>
-            <li class="nav-item" >
-              <a href="sponsors.html" class="nav-link">Sponsors</a>
-            </li>
-            <li class="nav-item" >
-              <a href="membership.html" class="nav-link">Membership</a>
-            </li>
-            <li class="nav-item" >
-              <a href="contact.html" class="nav-link">Contact</a>
-            </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About Us</a>
+        </li>
 
-            <li class="nav-item width-pc"> 
-              <a href="#" id="search" class="nav-link">
-                <span>
-                  <i class="fa fa-search" style="color: white;"></i>
-              </span>
-              </a>
-            </li>
-            <li class="nav-item width-pc">
-              <a href="#" id="login" class="nav-link">
-                <span>
-                  <i class="fa fa-shopping-basket" style="color: white;"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
+        <li class="nav-item">
+          <a href="family.html" class="nav-link">CSSA Family</a>
+        </li>
 
-        <div class="search-form">
-          <form>
-            <!--placeholder is a hint appearing before user enter anything-->
-            <input type="text" name="" placeholder="Search keywords">
-          </form>
-        </div>
+        <li class="nav-item">
+          <a href="events.html" class="nav-link">Events</a>
+        </li>
+        <li class="nav-item">
+          <a href="sponsors.html" class="nav-link">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a href="membership.html" class="nav-link">Membership</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
 
-        <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>    
+        <li class="nav-item width-pc">
+          <a href="#" id="search" class="nav-link">
+            <span>
+              <i class="fa fa-search" style="color: white;"></i>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item width-pc">
+          <a href="#" id="login" class="nav-link">
+            <span>
+              <i class="fa fa-shopping-basket" style="color: white;"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="search-form">
+        <form>
+          <!--placeholder is a hint appearing before user enter anything-->
+          <input type="text" name="" placeholder="Search keywords">
+        </form>
       </div>
-    </nav>
 
-    <section class="banner_area">
-      <div class="banner_inner d-flex align-items-center">
-        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-  <div class="container">
-    <div class="banner_content text-center">
-      <h2>Contact Us</h2>
-      <div class="page_link">
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
+      <a class="close"><i class="fa fa-times bg-dark" style="color: white"></i></a>
+    </div>
+  </nav>
+
+  <section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+      <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="">
+      </div>
+      <div class="container">
+        <div class="banner_content text-center">
+          <h2>Contact Us</h2>
+          <div class="page_link">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-      </div>
   </section>
   <!--================End Home Banner Area =================-->
-  
+
   <!--================Contact Area =================-->
   <section class="contact_area p_120">
-      <div class="container">
-<!--
+    <div class="container">
+      <!--
           <div id="mapBox" class="mapBox" 
               data-lat="45.506920" 
               data-lon="-73.579117" 
@@ -140,69 +148,67 @@
           </div>
 -->
 
-          <div id="mapBox" class="mapBox" style="height: 420px; margin-bottom: 80px;" 
-          data-lat="45.506920" 
-          data-lon="-73.579117" 
-          data-zoom="13" 
-          data-info="845 Sherbrooke St W, Montreal, QC H3A 0G4, Canada"
-          data-mlat="45.506920"
-          data-mlon="-73.579117">
-         
+      <div id="mapBox" class="mapBox" style="height: 420px; margin-bottom: 80px;" data-lat="45.506920"
+        data-lon="-73.579117" data-zoom="13" data-info="845 Sherbrooke St W, Montreal, QC H3A 0G4, Canada"
+        data-mlat="45.506920" data-mlon="-73.579117">
 
-          </div>
 
-          <div class="row">
+      </div>
 
-              <div class="col-lg-3">
-                  <div class="contact_info">
-                      <div class="info_item">
-                          <i class="lnr lnr-home"></i>
-                          <h6>Montreal,Quebec</h6>
-                          <p>845 Sherbrooke St W</p>
-                      </div>
-                      <!--
+      <div class="row">
+
+        <div class="col-lg-3">
+          <div class="contact_info">
+            <div class="info_item">
+              <i class="lnr lnr-home"></i>
+              <h6>Montreal,Quebec</h6>
+              <p>845 Sherbrooke St W</p>
+            </div>
+            <!--
                       <div class="info_item">
                           <i class="lnr lnr-phone-handset"></i>
                           <h6><a href="#">00 (440) 9865 562</a></h6>
                           <p>Mon to Fri 9am to 6 pm</p>
                       </div>
                       -->
-                      <!--
+            <!--
                       <div class="info_item">
                           <i class="lnr lnr-envelope"></i>
                           <h6><a href="#">support@colorlib.com</a></h6>
                           <p>Send us your query anytime!</p>
                       </div>
                       -->
-                  </div>
-              </div>
-
-              <div class="col-lg-9">
-                  <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                      <div class="col-md-6">
-                          <div class="form-group">
-                              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-                          </div>
-                          <div class="form-group">
-                              <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-                          </div>
-                          <div class="form-group">
-                              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-                          </div>
-                      </div>
-                      <div class="col-md-6">
-                          <div class="form-group">
-                              <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-                          </div>
-                      </div>
-                      <div class="col-md-12 text-right">
-                          <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
-                      </div>
-                  </form>
-              </div>
-
           </div>
+        </div>
+
+        <div class="col-lg-9">
+          <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+            novalidate="novalidate">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message" rows="1"
+                  placeholder="Enter Message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12 text-right">
+              <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
+            </div>
+          </form>
+        </div>
+
       </div>
+    </div>
   </section>
   <!--================Contact Area =================-->
 
@@ -211,42 +217,42 @@
   </p>
   <footer>
     <div class="container text-center">
-        <p>Designed by <span style="color:gold">McGill CSSA</span></p>
+      <p>Designed by <span style="color:gold">McGill CSSA</span></p>
     </div>
   </footer>
-  
+
   <!--================Contact Success and Error message Area =================-->
   <div id="success" class="modal modal-message fade" role="dialog">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <i class="fa fa-close"></i>
-                  </button>
-                  <h2>Thank you</h2>
-                  <p>Your message is successfully sent...</p>
-              </div>
-          </div>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <i class="fa fa-close"></i>
+          </button>
+          <h2>Thank you</h2>
+          <p>Your message is successfully sent...</p>
+        </div>
       </div>
+    </div>
   </div>
 
   <!-- Modals error -->
   <div id="error" class="modal modal-message fade" role="dialog">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <i class="fa fa-close"></i>
-                  </button>
-                  <h2>Sorry !</h2>
-                  <p> Something went wrong </p>
-              </div>
-          </div>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <i class="fa fa-close"></i>
+          </button>
+          <h2>Sorry !</h2>
+          <p> Something went wrong </p>
+        </div>
       </div>
+    </div>
   </div>
   <!--================End Contact Success and Error message Area =================-->
-  
-  
+
+
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -266,18 +272,19 @@
   <!--
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
   -->
-<!--
+  <!--
   <script src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyA4PuobYQK1N5E2AGONTYIUBnmgidj2zhE&center=45.5037116567801,-73.5777960838684&zoom=16&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0xf5f5f5&style=element:labels.icon%7Cvisibility:off&style=element:labels.text.fill%7Ccolor:0x616161&style=element:labels.text.stroke%7Ccolor:0xf5f5f5&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0xbdbdbd&style=feature:poi%7Celement:geometry%7Ccolor:0xeeeeee&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:poi.park%7Celement:geometry%7Ccolor:0xe5e5e5&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:road%7Celement:geometry%7Ccolor:0xffffff&style=feature:road.arterial%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:road.highway%7Celement:geometry%7Ccolor:0xdadada&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0x616161&style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:transit.line%7Celement:geometry%7Ccolor:0xe5e5e5&style=feature:transit.station%7Celement:geometry%7Ccolor:0xeeeeee&style=feature:water%7Celement:geometry%7Ccolor:0xc9c9c9&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&size=480x360"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4PuobYQK1N5E2AGONTYIUBnmgidj2zhE"></script>
 -->
   <script src="js/gmaps.min.js"></script>
   <script src="js/theme.js"></script>
-  
+
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4PuobYQK1N5E2AGONTYIUBnmgidj2zhE"
-  type="text/javascript"></script>
-  
-     
-<script src="js/plugin.js" type="text/javascript"></script>
-<script src="js/index.js" type="text/javascript"></script>
-  </body>
+    type="text/javascript"></script>
+
+
+  <script src="js/plugin.js" type="text/javascript"></script>
+  <script src="js/index.js" type="text/javascript"></script>
+</body>
+
 </html>
