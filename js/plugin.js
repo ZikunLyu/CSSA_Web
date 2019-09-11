@@ -1,5 +1,6 @@
 $(window).on("load", function(){
   $(".loader-wrapper").fadeOut("slow");
+  $("body").removeClass("preload");
 });
 
 $(document).ready(function () {
@@ -8,7 +9,6 @@ $(document).ready(function () {
         duration: 2000,
         origin: 'bottom'
        });
-
 
      $('#search').click(function() {
        $('.nav-link').addClass('hide-item')
@@ -28,3 +28,4 @@ $(document).ready(function () {
      })
     
    })
+

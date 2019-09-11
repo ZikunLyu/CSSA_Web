@@ -3,6 +3,16 @@
 /* ----------------------
  loading page
 -------------------------- */
+/*
+.preload * {
+  -webkit-transition:none, !important;
+	-moz-transition:none, !important;
+	-ms-transition:none, !important;
+	-o-transition:none, !important;
+	transition:none, !important;
+}
+*/
+
 .loader-wrapper {
   width: 100%;
   height: 100%;
@@ -76,9 +86,6 @@ animation: loader-inner 2s infinite ease-in;
   height: 0%;
 }
 }
-
-
-
 
 
 /*--------------------
