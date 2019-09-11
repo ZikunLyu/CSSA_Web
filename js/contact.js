@@ -305,17 +305,12 @@ $(document).ready(function(){
           });
     }
 */
-
+/*
 function initMap() {
     var $lat = $('#mapBox').data('lat');
     var $lon = $('#mapBox').data('lon');
     var $zoom = $('#mapBox').data('zoom');
-    /*
-    var $marker = $('#mapBox').data('marker');
-    var $info = $('#mapBox').data('info');
-    var $markerLat = $('#mapBox').data('mlat');
-    var $markerLon = $('#mapBox').data('mlon');
-*/
+
     var location = {lat: 45.506920, lng: -73.579117};
     var map = new google.maps.Map(document.getElementById("map"),{
         zoom: 4, 
@@ -525,7 +520,7 @@ function initMap() {
   }  
 
 	
-	
+	*/
         
  })(jQuery)
 })
