@@ -3,26 +3,18 @@
 /* ----------------------
  loading page
 -------------------------- */
-/*
-.preload * {
-  -webkit-transition:none, !important;
-	-moz-transition:none, !important;
-	-ms-transition:none, !important;
-	-o-transition:none, !important;
-	transition:none, !important;
-}
-*/
 
 .loader-wrapper {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #242f3f;
   display:flex;
   justify-content: center;
   align-items: center;
+  z-index: 99999;
 }
 
 .loader {
