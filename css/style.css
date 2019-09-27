@@ -692,6 +692,80 @@ font-size: 25px;
 }
 */
 
+/*------------------------------------------
+    About page 
+-------------------------------------------*/
+
+/*----------------------
+1 about page side image
+-----------------------*/
+.column-image {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:45%;
+	top:90px;
+	z-index:1;
+	overflow:hidden;
+	-webkit-transform: translate3d(0,0,0);
+}
+.column-notifer {
+	background:#292929;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:50%;
+	z-index:10;
+	padding:0 50px;
+	height:90px;
+	line-height:90px;
+}
+.column-notifer .scroll-down-wrap {
+	top:32px;
+	line-height:14px;
+}
+.column-title {
+	position:absolute;
+	bottom:140px;
+	left:0;
+	width:100%;
+	text-align:left;
+	padding:20px 50px;
+	z-index:11;
+}
+.column-title h2 {
+	font-size:48px;
+	font-weight:700;
+	color:#fff;
+	position:relative;
+}
+.column-title h2:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:-70px;
+	width:40px;
+	height:2px;
+	background:#fff;
+}
+.column-title h3 {
+    font-family: 'Playfair+Display', serif;
+    font-style: italic;
+	color:rgba(255,255,255,0.91);
+	max-width:400px;
+}
+.fixed-column-dec {
+	position:absolute;
+	top:50px;
+	right:50px;
+	width:70px;
+	height:70px;
+	z-index:21;
+	border-top:1px solid;
+	border-right:1px solid;
+	border-color:rgba(255,255,255,0.51);
+}
+
 /*--------------------
 6.1 family page bar
 --------------------*/
