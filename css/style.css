@@ -292,7 +292,7 @@ animation: loader-inner 2s infinite ease-in;
   user-select: none;
 }
 
-
+/*  !!!!!!!!!!!!!!!!!! kaikai  check it out !!!!!!!!!!!!!!!!!!!!!1*/
 /* use background instead of using image to fill the carousel*/
 #slide1, #slide2, #slide3 {
   background: url(../image/reborn1.png) no-repeat scroll  center center;
