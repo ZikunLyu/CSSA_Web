@@ -294,13 +294,22 @@ animation: loader-inner 2s infinite ease-in;
 
 /*  !!!!!!!!!!!!!!!!!! kaikai  check it out !!!!!!!!!!!!!!!!!!!!!1*/
 /* use background instead of using image to fill the carousel*/
-#slide1, #slide2, #slide3 {
+#slide1, #slide2 {
   background: url(../image/head-new.jpg) no-repeat scroll  center center;
   background-size: cover;
   position: relative;
   padding-top: 500px;
   padding-bottom: 190px;
   width:100%;
+}
+
+#slide3{
+    background: url(../image/head-2.jpg) no-repeat scroll  center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 500px;
+    padding-bottom: 190px;
+    width:100%;
 }
 
 /*--------------------
