@@ -270,6 +270,12 @@ animation: loader-inner 2s infinite ease-in;
  /*--------------------
   2 carousel -- homepage only
   --------------------*/
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: block;
+  }
+
   .bd-placeholder-img-carousel {
     font-size: 1.125rem;
     text-anchor: middle;
