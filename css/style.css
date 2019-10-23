@@ -303,10 +303,9 @@ animation: loader-inner 2s infinite ease-in;
 }
 
 .col-0-gutter {
-	padding-left: 100px;
-  padding-right: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
+	padding-left: 0;
+  padding-right: 0;
+ 
 }
 
 
@@ -1120,6 +1119,7 @@ background-color: #FED136;
 
 .portfolio {
   margin-top: 40px;
+  margin-left: 100px;
 }
 
 /*
