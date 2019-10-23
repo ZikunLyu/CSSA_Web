@@ -304,7 +304,9 @@ animation: loader-inner 2s infinite ease-in;
 
 .col-0-gutter {
 	padding-left: 0;
-	padding-right: 0;
+  padding-right: 0;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 
