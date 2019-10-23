@@ -270,39 +270,12 @@ animation: loader-inner 2s infinite ease-in;
  /*--------------------
   2 carousel -- homepage only
   --------------------*/
-  .carousel-item.active,
-  .carousel-item-next,
-  .carousel-item-prev {
-    display: block;
-  }
-
-  .bd-placeholder-img-carousel {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    display: block;
-    margin: auto;
-    width: 1300px;
-    height: 700px;
-  }
-
-  .bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 /*  !!!!!!!!!!!!!!!!!! kaikai  check it out !!!!!!!!!!!!!!!!!!!!!1*/
 /* use background instead of using image to fill the carousel*/
 #slide1, #slide2 {
-  background: url(../image/head-new.jpg) no-repeat scroll  center center;
-  background-size: cover;
+  /* scroll means the image will scroll with the website and fixed is the opposite */
+  background: url(../image/reborn1.png) no-repeat scroll  center top;
+  background-size: contain, cover;
   position: relative;
   padding-top: 500px;
   padding-bottom: 190px;
@@ -310,8 +283,8 @@ animation: loader-inner 2s infinite ease-in;
 }
 
 #slide3{
-    background: url(../image/head-2.jpg) no-repeat scroll  center center;
-    background-size: cover;
+    background: url(../image/reborn1.png) no-repeat scroll  center top;
+    background-size: contain, cover;
     position: relative;
     padding-top: 500px;
     padding-bottom: 190px;
