@@ -157,7 +157,7 @@ blockquote p {
 	z-index: 5;
 }
 .container {
-	max-width: 1224px;
+	max-width: 1224px; /* 1224px */
 	width: 92%;
 	margin: 0 auto;
 	position: relative;
