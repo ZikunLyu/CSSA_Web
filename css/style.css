@@ -275,7 +275,7 @@ animation: loader-inner 2s infinite ease-in;
 /* use background instead of using image to fill the carousel*/
 #slide1 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
-  background: url(../image/reborn1.png) no-repeat scroll  center center;
+  background: url(../image/header-new.jpg) no-repeat scroll  center center;
   background-size: cover;
   position: relative;
   padding-top: 500px;
@@ -286,7 +286,7 @@ animation: loader-inner 2s infinite ease-in;
 
 #slide2 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
-  background: url(../image/reborn1.png) no-repeat scroll  center center;
+  background: url(../image/header-new2.jpg) no-repeat scroll  center center;
   background-size: cover;
   position: relative;
   padding-top: 500px;
@@ -296,7 +296,7 @@ animation: loader-inner 2s infinite ease-in;
 }
 
 #slide3{
-    background: url(../image/reborn1.png) no-repeat scroll  center center;
+    background: url(../image/header-new3.jpg) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 500px;
