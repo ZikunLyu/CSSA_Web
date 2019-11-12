@@ -12,8 +12,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/style.css" rel="stylesheet">
+  <!-- font awesomes -->
+  <link href="css/all.css" rel="stylesheet">
+  <!--
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -24,6 +28,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+  <!--add number counter animation -->  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>  
+  <!--add waypoint-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
@@ -57,7 +66,7 @@
 
 <body>
   <div class="loader-wrapper">
-    <span class="loader loader-inner"></span>
+    <span class="loader"><span class="loader-inner"></span>
   </div>
 
   <!--
@@ -353,12 +362,14 @@
               <p style="">McGill University Chinese Students and Scholars Association (CSSA),
                 is the only student community certified by the Chinese Consulate on campus,
                 and it is the only cultural club dedicated mainly to students and scholars from Mainland China.</p>
+              <p>麦吉尔大学中国学生学者联合会（McGill CSSA）是一个无政治、无宗教、非营利、并且唯一正式在麦吉尔校方注册的主要面向本科生的官方学生组织。
+              </p>  
             </div>
           </div>
 
           <div class="col-md-6" style="margin-bottom: 20px;">
             <div class="skillbar clearfix" data-percent="100%">
-              <div class="skillbar-title" style="background: #d35400;"><span>Followers</span></div>
+              <div class="skillbar-title" style="background: #d35400;"><span>Wechat Followers</span></div>
               <div class="skillbar-bar" style="background: #e67e22;"></div> <!-- indicate the darker bar -->
               <div class="skill-bar-percent">10000+</div>
             </div> <!-- End Skill Bar -->
@@ -407,7 +418,8 @@
           <div class="col-md-3 col-0-gutter mz-about-default text-center">
             <div class="mz-module-about">
               <i class="fa fa-briefcase ot-circle"></i>
-              <h3>Web Development</h3>
+              <div class="num_1">10052</div>
+              <h3>Wechat Followers</h3>
             </div>
           </div>
           <!-- end about module -->
@@ -415,8 +427,9 @@
           <!-- about module -->
           <div class="col-md-3 col-0-gutter mz-about-dark text-center">
             <div class="mz-module-about">
-              <i class="fa fa-photo ot-circle"></i>
-              <h3>Visualisation</h3>
+              <i class="far fa-money-bill-alt ot-circle"></i>
+              <div class="num_2">1408</div>
+              <h3>Membership</h3>
             </div>
           </div>
           <!-- end about module -->
@@ -425,7 +438,8 @@
           <div class="col-md-3 col-0-gutter mz-about-default text-center">
             <div class="mz-module-about">
               <i class="fa fa-camera-retro ot-circle"></i>
-              <h3>Photography</h3>
+              <div class="num_3">243</div>
+              <h3>Events</h3>
             </div>
           </div>
           <!-- end about module -->
@@ -434,12 +448,14 @@
           <div class="col-md-3 col-0-gutter mz-about-dark text-center">
             <div class="mz-module-about">
               <i class="fa fa-cube ot-circle"></i>
+              <div class="num_4">1246</div>
               <h3>UI/UX Design</h3>
             </div>
           </div>
           <!-- end about module -->
 
         </div>
+        
       </div>
       <!-- /.container -->
     </section>
@@ -939,6 +955,7 @@
 
   <script src="js/plugin.js" type="text/javascript"></script>
   <script src="js/index.js" type="text/javascript"></script>
+
 </body>
 
 </html>

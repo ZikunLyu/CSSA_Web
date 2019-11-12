@@ -626,6 +626,14 @@ figure.effect-bubba:hover p {
 	color:rgba(0, 0, 0, 0.4);
 }
 
+/*counter-up parts in about*/
+.num_1, .num_2, .num_3, .num_4 {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+
 
 /*--------------------
 5.4. Dark Short section (counters, quote, etc)

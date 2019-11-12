@@ -35,4 +35,26 @@ $(document).ready(function () {
        })
        },{offset:'90%'})
 
+      $(".num_1").counterUp({
+        delay: 100,
+        time:20000
+      });
+
+      $(".num_2").counterUp({
+        delay: 100,
+        time:10000
+      });
+
+      $(".num_3").counterUp({
+        delay: 100,
+        time:2000
+      });
+
+      $(".num_4").counterUp({
+        delay: 100,
+        time:10000
+      });
+
+
+
       })
