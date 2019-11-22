@@ -1134,7 +1134,7 @@ background-color: #FED136;
   transition: 1s;
 }
 #back-top a:hover {
-  background: #fed136;
+  background:#FF5733;
 }
 /* arrow icon (span tag) */
 #back-top i {
