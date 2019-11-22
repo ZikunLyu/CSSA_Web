@@ -402,6 +402,19 @@ margin: 40px 0;
 font-size: 37px;
 }
 
+#about-english {
+  font-family: 'Lobster', cursive;
+  /*
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; //zhongwen bucuo
+font-family: 'Muli', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Lobster', cursive;
+  */
+  font-size: 15pt;
+}
+
 /*--------------------
 5.2 Portfolio  -- homepage only
 --------------------*/
@@ -697,6 +710,10 @@ font-size: 25px;
 	color: #848484;
 	padding: 18px 30px 35px 30px;
 	line-height: 24px;
+}
+
+#team h3 {
+  font-family: 'Domine', serif;
 }
 
 /*------------------------------------------

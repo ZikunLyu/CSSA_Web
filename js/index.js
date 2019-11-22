@@ -37,7 +37,7 @@ $(document).ready(function () {
 
       $(".num_1").counterUp({
         delay: 100,
-        time:20000
+        time:13000
       });
 
       $(".num_2").counterUp({
