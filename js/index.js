@@ -37,22 +37,22 @@ $(document).ready(function () {
 
       $(".num_1").counterUp({
         delay: 100,
-        time:13000
+        time:5000
       });
 
       $(".num_2").counterUp({
         delay: 100,
-        time:10000
+        time:3000
       });
 
       $(".num_3").counterUp({
         delay: 100,
-        time:2000
+        time:1000
       });
 
       $(".num_4").counterUp({
         delay: 100,
-        time:10000
+        time:2000
       });
 
 
