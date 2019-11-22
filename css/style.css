@@ -1054,7 +1054,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-background-color: #FED136;
+background-color: #FF5733;
   margin-right: 15px;
   padding: 5px 10px;
 }
@@ -1065,14 +1065,14 @@ background-color: #FED136;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
   color: #fff;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #FF5733;
+  border-color: #FF5733;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn, .is-checked {
   color: #fff;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #FF5733;
+  border-color: #FF5733;
 }
 
 .btn {
