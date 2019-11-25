@@ -727,6 +727,11 @@ font-size: 25px;
 
 #team h3 {
   font-family: 'Domine', serif;
+
+}
+
+.img-responsive {
+  width: 100%;
 }
 
 /*------------------------------------------
