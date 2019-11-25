@@ -4,6 +4,7 @@
  loading page
 -------------------------- */
 
+/*
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -15,6 +16,7 @@
 	z-index: 9999;
 	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_6.gif) center no-repeat white;
 }
+*/
 
 .loader-wrapper {
   width: 100%;
@@ -22,8 +24,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: white; /*#242f3f #FF5733*/
+  background-color: #242f3f; /*#242f3f #FF5733*/
+  /*
   background-image: url("../image/reborn1.png");
+  */
   display:flex;
   justify-content: center;
   align-items: center;
