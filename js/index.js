@@ -20,11 +20,13 @@ $(document).ready(function () {
          viewFactor: 0.2
        });
 
+       /*
        sr.reveal('#about_part' ,{
          duration: 2000,
          origin: 'bottom',
          viewFactor: 0.2
        });
+       */
 
        var $about = $('#about_part');
        $about.waypoint(function () {
