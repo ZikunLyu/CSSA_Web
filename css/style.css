@@ -293,7 +293,7 @@ animation: loader-inner 2s infinite ease-in;
 /* use background instead of using image to fill the carousel*/
 #slide1 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
-  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.jpg) no-repeat scroll  center center;
+  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.webp) no-repeat scroll  center center;
   background-size: cover;
   position: relative;
   padding-top: 500px;
@@ -304,7 +304,7 @@ animation: loader-inner 2s infinite ease-in;
 
 #slide2 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
-  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headernew2_ljunke.jpg) no-repeat scroll  center center;
+  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headernew2_ljunke.webp) no-repeat scroll  center center;
   background-size: cover;
   position: relative;
   padding-top: 500px;
@@ -314,7 +314,7 @@ animation: loader-inner 2s infinite ease-in;
 }
 
 #slide3{
-    background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799588/Carousel/headnew3_zol1cj.jpg) no-repeat scroll  center center;
+    background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799588/Carousel/headnew3_zol1cj.webp) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 500px;
