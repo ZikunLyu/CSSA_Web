@@ -2,9 +2,10 @@
 
 $(document).ready(function () {
   $(window).on("load", function () {
-    //$(".loader-wrapper").fadeOut("slow"); 
-    //sleep(1000000);
+    $(".loader-wrapper").fadeOut("slow"); 
+    /*
     $(".se-pre-con").fadeOut("slow");;
+    */
   });
 
 
@@ -32,13 +33,4 @@ $(document).ready(function () {
   })
 
 })
-/*
-function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
-}
-*/
+
