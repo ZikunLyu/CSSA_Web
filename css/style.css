@@ -709,7 +709,7 @@ figure.effect-bubba:hover p {
 }
 
 .team-item h3 {
-font-size: 25px;
+    font-size: 25px;
     font-weight: 300;
     margin: 30px 0 20px;
     text-transform: uppercase;
@@ -742,11 +742,14 @@ font-size: 25px;
 /*------------------------------------------
     Client 
 -------------------------------------------*/
-#sponsor {
+/* top right bot left */
+#spon {
   padding: 30px 0 60px;
 }
 
-
+.logo {
+  margin-bottom: -70px;
+}
 
 /*------------------------------------------
     About page 
@@ -909,6 +912,11 @@ font-size: 25px;
     margin-bottom: 40px;
     display: block;
   }
+
+  .logo {
+    margin-bottom: 0px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -937,6 +945,7 @@ font-size: 25px;
     width: 100%;
     height: auto;
   }
+
 }
 
   @media (min-width: 768px) {
@@ -954,24 +963,31 @@ font-size: 25px;
   and (min-width : 320px)
   and (max-width : 480px) {
 
-#event {
-  padding-left: 0;
-  padding-right: 0;
-}  
+    .logo {
+      margin-bottom: 0px;
+    }
+
+  #event {
+    padding-left: 0;
+    padding-right: 0;
+  }  
   
-#back-top {
-  position: fixed;
-  bottom: 10px;
-  right: 30px;
-}
-#back-top a {
-  width: 40px;
-  height: 40px;
-}
-#back-top i {
-  margin-top: 7px;
-  font-size: 20px;
-}
+  #back-top {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+  }
+
+  #back-top a {
+    width: 40px;
+    height: 40px;
+  }
+
+  #back-top i {
+    margin-top: 7px;
+    font-size: 20px;
+  }
+
 }
 
  /*================================================================================================*/ 

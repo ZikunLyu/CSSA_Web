@@ -27,7 +27,7 @@ $(document).ready(function () {
          viewFactor: 0.2
        });
        */
-
+       /*
        var $about = $('#about_part');
        $about.waypoint(function () {
          $('.skillbar').each(function(){
@@ -36,15 +36,16 @@ $(document).ready(function () {
          },6000);
        })
        },{offset:'90%'})
+       */
 
       $(".num_1").counterUp({
         delay: 100,
-        time:5000
+        time:3000
       });
 
       $(".num_2").counterUp({
         delay: 100,
-        time:3000
+        time:2000
       });
 
       $(".num_3").counterUp({
@@ -54,7 +55,7 @@ $(document).ready(function () {
 
       $(".num_4").counterUp({
         delay: 100,
-        time:2000
+        time:1000
       });
 
 
