@@ -294,7 +294,7 @@ animation: loader-inner 2s infinite ease-in;
 #slide1 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
   background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.webp) no-repeat scroll  center center;
-  -webkit-background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.jp2) no-repeat scroll  center center;
+  -webkit-background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.png) no-repeat scroll  center center;
   background-size: cover;
   position: relative;
   padding-top: 500px;
