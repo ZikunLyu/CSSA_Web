@@ -293,9 +293,13 @@ animation: loader-inner 2s infinite ease-in;
   /* scroll means the image will scroll with the website and fixed is the opposite */
   -webkit-background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--o875WrIj--/q_jpegmini/v1574799642/Carousel/headnew_vb3v36.jpg) no-repeat scroll  center center;
   background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.webp) no-repeat scroll  center center;
+  -webkit-background-size: cover;
   background-size: cover;
+  -webkit-position: relative;
   position: relative;
+  -webkit-padding-top: 500px;
   padding-top: 500px;
+  -webkit-padding-bottom: 190px;
   padding-bottom: 190px;
   width:100%;
   height: 100%;
