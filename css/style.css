@@ -291,15 +291,16 @@ animation: loader-inner 2s infinite ease-in;
 /* use background instead of using image to fill the carousel*/
 #slide1 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
-  -webkit-background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--o875WrIj--/q_jpegmini/v1574799642/Carousel/headnew_vb3v36.jpg) no-repeat scroll  center center;
-  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.webp) no-repeat scroll  center center;
-  -webkit-background-size: cover;
+  /*background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--IjZu2s7W--/q_jpegmini/v1574799642/Carousel/headnew_vb3v36.png) no-repeat scroll  center center;*/
+  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--o875WrIj--/q_jpegmini/v1574799642/Carousel/headnew_vb3v36.png) no-repeat scroll  center center;
+  /*background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headnew_vb3v36.webp) no-repeat scroll  center center;*/
+  
   background-size: cover;
-  -webkit-position: relative;
+  
   position: relative;
-  -webkit-padding-top: 500px;
+  
   padding-top: 500px;
-  -webkit-padding-bottom: 190px;
+  
   padding-bottom: 190px;
   width:100%;
   height: 100%;
@@ -307,8 +308,8 @@ animation: loader-inner 2s infinite ease-in;
 
 #slide2 {
   /* scroll means the image will scroll with the website and fixed is the opposite */
-  -webkit-background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--V4dNyEM9--/q_jpegmini/v1574799642/Carousel/headernew2_ljunke.jpg) no-repeat scroll  center center;
-  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headernew2_ljunke.webp) no-repeat scroll  center center;
+  background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--hxLkX5HT--/q_jpegmini/v1574799642/Carousel/headernew2_ljunke.png) no-repeat scroll  center center;
+  /*background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799642/Carousel/headernew2_ljunke.webp) no-repeat scroll  center center;*/
   background-size: cover;
   position: relative;
   padding-top: 500px;
@@ -318,8 +319,8 @@ animation: loader-inner 2s infinite ease-in;
 }
 
 #slide3{
-    -webkit-background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--mZ9doASd--/q_jpegmini/v1574799588/Carousel/headnew3_zol1cj.jpg) no-repeat scroll  center center;
-    background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799588/Carousel/headnew3_zol1cj.webp) no-repeat scroll  center center;
+    background: url(https://res.cloudinary.com/mcgillcssa/image/upload/s--7fbNn2ln--/q_jpegmini/v1574799588/Carousel/headnew3_zol1cj.png) no-repeat scroll  center center;
+    /*background: url(https://res.cloudinary.com/mcgillcssa/image/upload/v1574799588/Carousel/headnew3_zol1cj.webp) no-repeat scroll  center center;*/
     background-size: cover;
     position: relative;
     padding-top: 500px;
