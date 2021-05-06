@@ -1,0 +1,55 @@
+.window{
+    position: fixed;
+    top:200px;
+    left:380px;
+    height : 500px;
+    width: 710px;
+    padding: 30px 30px 30px 30px;
+    background-color:white;
+    align-items: center;
+    display: flex;
+    z-index: 9999;
+    animation: a1 1s; 
+}
+
+@keyframes a1
+{
+	0%   {opacity:0;}
+	100% {opacity:1;}
+}
+
+
+
+.head2{
+    position: absolute;
+    top:15px;
+    left:25px;
+    font-family:Arvo,Helvetica,sans-serif; 
+    margin-left: 40px; 
+    
+}
+
+.pic{
+    position: absolute;
+    top:100px;
+    left:45px;
+    height : 350px;
+    width: 350px;  
+    align-items: center;
+    
+}
+
+
+
+.para{
+    position: absolute;
+    top:113px;
+    left:400px;
+    height : 350px;
+    width: 260px;
+    
+}
+.ppp{
+    margin: 20px 20px 20px 20px;
+}
+

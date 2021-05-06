@@ -1,0 +1,36 @@
+.classic{
+    position:relative;
+    height : 350px;
+    width: 350px;
+    
+}
+
+.n {
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+    transition:opacity 1s; 
+    }
+    
+.n:hover{
+        opacity:1;
+}
+
+
+
+.fix{
+    position: fixed;
+    height : 1800px;
+    width: 1800px;
+    top:0px;
+    left:0px;
+    z-index: 9999;
+    animation: a1 1s; 
+}
+
+@keyframes a1
+{
+	0%   {opacity:0;}
+	100% {opacity:1;}
+}

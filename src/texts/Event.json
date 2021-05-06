@@ -1,0 +1,155 @@
+{
+    "Column1": [
+        {
+            "pic1": "/image/t1.jpg",
+            "pic2": "/image/n1.png",
+            "name": "Frosh",
+            "pic3": "li1",
+            "para": "每年9月开学季CSSA会组织新生Frosh活动。活动中，学长学姐组织各种有趣的游戏，带大家玩转Montreal。新生们既能结交到新朋友，也可以进一步适应McGill的校园生活。"
+        },
+        {
+            "pic1": "/image/t3.jpg",
+            "pic2": "/image/n3.png",
+            "name": "Temple Fair",
+            "pic3": "li3",
+            "para": "庙会一般在每年元宵节左右举行，活动中cssa工作人员会和合作商家、饭店一起为大家提供各种小吃摊和游戏摊，完美模拟国内过节时的庙会体验，给大家创造一个开心热闹的元宵节。"
+        },
+        {
+            "pic1": "/image/t5.jpg",
+            "pic2": "/image/n5.png",
+            "name": "Spring Festival Gala",
+            "pic3": "li5",
+            "para": "每年的除夕夜CSSA会组织留学生们的春节晚会。小伙伴们欢聚一堂，吃吃喝喝，欣赏精彩的文艺演出，在异乡过年的苦涩都挥之脑后。对于喜欢表演的同学来说也是难得的展示才艺的机会哦。"
+        }
+    ],
+    "Column2": [
+        {
+            "pic1": "/image/t2.jpg",
+            "pic2": "/image/n2.png",
+            "name": "Pub Crawl",
+            "pic3": "li2",
+            "para": "一年一度的酒吧探店活动，MTL热门好玩的酒吧工作人员带你一晚逛遍，各店的招牌好酒、精彩纷呈的喝酒游戏带给你一个尽兴夜晚。"
+        },
+        {
+            "pic1": "/image/t4.jpg",
+            "pic2": "/image/n4.png",
+            "name": "Speed Dating",
+            "pic3": "li4",
+            "para": "留学生活有点寂寞？来联谊会交点儿朋友吧！各专业各年级的同学们齐聚一堂，精心设计的社交游戏让大家最快熟识。你的灵魂之友说不定就在这里。"
+        },
+        {
+            "pic1": "/image/t6.jpg",
+            "pic2": "/image/n6.png",
+            "name": "Send Off",
+            "pic3": "li6",
+            "para": "每年暑假在国内主要城市举办的新生见面会，帮助新生们提前认识新同学，了解更多信息做好留学准备。各种生活学习上的问题都会在这里得到学长学姐的耐心解答。"
+        }
+    ],
+    "Year": [
+        {
+            "year": 2020,
+            "pic1": "/image/2020aaa.png",
+            "pic2": "/image/2020bbb.png",
+            "events": "2020events"
+        },
+        {
+            "year": 2019,
+            "pic1": "/image/2019aaa.png",
+            "pic2": "/image/2019bbb.png",
+            "events": "2019events"
+        },
+        {
+            "year": 2018,
+            "pic1": "/image/2018aaa.png",
+            "pic2": "/image/2018bbb.png",
+            "events": "2018events"
+        }
+    ],
+    "Recent": [
+        {
+            "date": "Oct 10, 2020",
+            "pic": "/image/yetan.jpg",
+            "name": "夜谈",
+            "eng": "Night Talk",
+            "link": "https://mp.weixin.qq.com/s?__biz=MzA5NzA3OTYxMw==&mid=2653245007&idx=2&sn=e116234f2cdb072fde4f150c9f91fd51&chksm=8b77b61dbc003f0ba3392a59abfd87504727471d9ac8dcf886429a2d56ae98a4995c353e4b51&mpshare=1&scene=1&srcid=10247DD5Kly3jBJZ61oflYHa&sharer_sharetime=1603495019122&sharer_shareid=1834b9c5bfe3834104ead15cd50f4e5c&key=92bd8fadcb6a4858583913fb483a94d90355592f5889c36c6addb6867d3cb5f7619148466b13c9ea55d3303dc48d8ab96289b4ef4ce86260f08551babc8a24a3b6c7a8b59e11d3948196268a2e47afe3dabd8c41710c227680aba4b1f4cf2aa8bb7979dc29bd8c5d1d4143e8d0d03c7d4b762933abb807dee738b1c09c9495c2&ascene=1&uin=MTcwODIzOTAwNA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=en&exportkey=AQIv%2FY03aIhdomw%2FEQRDUSQ%3D&pass_ticket=lUOG14MfDX86%2BtMH0QVzFTCcQUNAAwtRG%2F4M47zxC227yNW4lSUjOvCq2uDZLX5N&wx_header=0"
+        },
+        {
+            "date": "Sept 18, 2020",
+            "pic": "/image/openday.jpg",
+            "name": "名企一日游",
+            "eng": "Open Day at NetEase & Tencent",
+            "link": "https://mp.weixin.qq.com/s?__biz=MzA5NzA3OTYxMw==&mid=2653241503&idx=1&sn=d359d0cffd0367ba3bc6af9fafe7b6d7&chksm=8b77b8cdbc0031dbc1bdbc32b3f73ab03e52f9273b8c1e90f86bd4cd6a4bacee087985222bae&mpshare=1&scene=1&srcid=1024sWu7s0NkMDLiQWrQzo4c&sharer_sharetime=1603495253565&sharer_shareid=1834b9c5bfe3834104ead15cd50f4e5c&key=029d4162e347a3adccaa8ba46562bc743133e724b9e25e29e29d9ab5d95f3ed8a7b64ac18058ac80190007fdfc5c701756bbc520ac2c252b34aaf5125b0941756dd124a38e04ffaa182da7531f59a2a26ddfb1ed258ea6849dbea3a316bcc2d2d12ec1ed21b3070ac543b7fe26970cb5075cd262b376ceb74083c864e991be42&ascene=1&uin=MTcwODIzOTAwNA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=en&exportkey=AVX2GP%2BaX2ft3pjv39xgiQg%3D&pass_ticket=lUOG14MfDX86%2BtMH0QVzFTCcQUNAAwtRG%2F4M47zxC227yNW4lSUjOvCq2uDZLX5N&wx_header=0"
+        },
+        {
+            "date": "Oct 9, 2020",
+            "pic": "/image/singing.png",
+            "name": "校园歌手大赛",
+            "eng": "Vocal Star Singing Competition",
+            "link": "https://mp.weixin.qq.com/s?__biz=MzA5NzA3OTYxMw==&mid=2653245007&idx=1&sn=c1a26c9c4e571eef641190d9866d0618&chksm=8b77b61dbc003f0b5c6e0a3053782605b4bf1e604acab152f27ee118f3e2cfb8d8c260813760&mpshare=1&scene=1&srcid=1024AIcgxpr5p1FQKcDQBGsT&sharer_sharetime=1603493930476&sharer_shareid=1834b9c5bfe3834104ead15cd50f4e5c&key=b6de4a213a64b72928fe97ea89e52398640c1a35ad442c579ab7c9f5d2403f378326856d35fdbc787294abe788cec9e86355ef2779e4ff2175243fca863dba66023db6be925b921caaf259a58b88e17167ccb8bc658dc09eca83c4313962700ceb342c212cd8739e60131d2751cbcff8e498e9e022ba31eaaa78719e3af79c0f&ascene=1&uin=MTcwODIzOTAwNA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=en&exportkey=AWpVczcYjkja1gABP1II2bY%3D&pass_ticket=lUOG14MfDX86%2BtMH0QVzFTCcQUNAAwtRG%2F4M47zxC227yNW4lSUjOvCq2uDZLX5N&wx_header=0"
+        },
+        {
+            "date": "July 25, 2020",
+            "pic": "/image/t1.jpg",
+            "name": "新生欢迎会",
+            "eng": "Send Off",
+            "link": "https://mp.weixin.qq.com/s?__biz=MzA5NzA3OTYxMw==&mid=2653235341&idx=1&sn=f10ac1421a891a86d2333926c5bbaf3c&chksm=8b77d0dfbc0059c9270fb96c581a3a93f9cdaeed7e037f04aec0420a0f684b2cd97e83fb7672&mpshare=1&scene=1&srcid=0809P1016blN7BKIZZw4kaio&sharer_sharetime=1596915420190&sharer_shareid=1834b9c5bfe3834104ead15cd50f4e5c&key=029d4162e347a3ad5096ea2651228bfadc7738f8140d8b12b21e4cf753c8e85a86494b40ef9e0e853169926fdbac724388d11039f30f7a381d3094e5005d9fafd81ee9c8530f95097c1cbef2111073d3&ascene=1&uin=MTcwODIzOTAwNA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=en&exportkey=AdteBsaLWZeIO6mH8ITFRTc%3D&pass_ticket=MWsLj4TOePtqH0JrypipNqkUhO7wAhHfZQflZY7%2FC12b6Qv0rAXTqhcFHnE0BpSA"
+        },
+        {
+            "date": "July 31, 2020",
+            "pic": "/image/t3.jpg",
+            "name": "摄影大赛",
+            "eng": "Photography Contest",
+            "link": "https://mp.weixin.qq.com/s?__biz=MzA5NzA3OTYxMw==&mid=2653237483&idx=1&sn=575ae15ae05df7311bca9b59fc6d4acc&chksm=8b77c8b9bc0041af0339e477abeb913f5833915e7816d153d74577dec007eb651cd6938ab7e3&mpshare=1&scene=1&srcid=08095jFCZCOPjwZb3geMvTLR&sharer_sharetime=1596915433962&sharer_shareid=1834b9c5bfe3834104ead15cd50f4e5c&key=af1f462991b3ae2f88af5adcb6459c743597ea30fffc91787f7dfa9a85a40222a39870b6be0f5dca5640f84596991b767142d874ae580fda513389cef93003299fa302151dacc1c514ee6062f9026e4d&ascene=1&uin=MTcwODIzOTAwNA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=en&exportkey=AVPdCRoXAPpOwRx6zRR2qj4%3D&pass_ticket=MWsLj4TOePtqH0JrypipNqkUhO7wAhHfZQflZY7%2FC12b6Qv0rAXTqhcFHnE0BpSA"
+        }
+    ],
+    "Past": [
+        {
+            "year": 2020,
+            "pic": "pubg",
+            "para": "2020年疫情期间大家都宅在家里十分无聊，我们组织了线上吃鸡大赛，让同学们到海岛上展现技艺一叙友情。",
+            "title": "线上吃鸡大赛"
+        },
+        {
+            "year": 2020,
+            "pic": "jiaozi",
+            "para": "春节来临，异乡上学的大家是不是有点想念以前全家人一起包饺子的温馨画面？我们组织了大家一起包饺子的活动，材料全部提供，保教包教会哦。",
+            "title": "包饺子"
+        },
+        {
+            "year": 2019,
+            "pic": "basketball",
+            "para": "篮球可以说是最受我校中国男生欢迎的运动了。叫上兄弟，与全校的灌篮高手切磋，来一场酣畅淋漓的热血争霸。",
+            "title": "三人篮球争霸"
+        },
+        {
+            "year": 2019,
+            "pic": "chinatown",
+            "para": "唐人街探案是我们的大型现场剧本杀活动。各队人马穿梭于Montreal唐人街的各个店铺，收集线索，发挥聪明才智破解谜题找到凶手。",
+            "title": "唐人街探案"
+        },
+        {
+            "year": 2019,
+            "pic": "casino",
+            "para": "我们的大型模拟赌场活动。华灯初上，穿上复古西装礼服，拿好筹码，在各式各样的桌游摊位前流连，体验赌博的惊险刺激，还可以赢取优厚奖品哦。",
+            "title": "Casino"
+        },
+        {
+            "year": 2019,
+            "pic": "7days",
+            "para": "本年度一周cp我们和滑铁卢的小伙伴合作，帮助大家结交到对面学校的小哥哥小姐姐。                                                  ",
+            "title": "七日情侣--一周cp"
+        },
+        {
+            "year": 2019,
+            "pic": "sunlife",
+            "para": "在SunLife的鼎力支持下举办。同学们在为期两天的学习中，聆听了讲座，进行了case competition和group interview，收获满满。",
+            "title": "Sun Life金融领袖培训营"
+        },
+        {
+            "year": 2019,
+            "pic": "fengtang",
+            "para": "我们在Montreal的初春,带大家去了蒙特利尔最大的枫糖小屋--La Gouderelle。",
+            "title": "枫糖小屋"
+        }
+    ]
+}

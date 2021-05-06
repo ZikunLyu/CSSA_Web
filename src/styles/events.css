@@ -1,0 +1,29 @@
+.aaa{
+    margin-bottom: 20px;
+    height: 50px; 
+    margin-top: 0px;   
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.head1{
+    font-family:Arvo,Helvetica,sans-serif;    
+}
+
+.t{
+    height : 950px;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    padding: 0px 0px 0px 0px ;
+}
+
+.t2{
+    width :800px;
+    margin: auto;
+    align-items: center;
+}
+
+

@@ -1,0 +1,67 @@
+{
+    "VPs": [
+        {
+            "id":1080,
+            "name": "Candice Lyu",
+            "department": "CO-PREZ",
+            "portrait": "Candice_ss",
+            "intro": "Just one free spirit nonconformist, you need to let her unconstrained soul run wild and blossom in her own way. The one and only place that she would love to go is certainly to a place she has never been to."
+        },
+        {
+            "id":1090,
+            "name": "Lisa Liu",
+            "department": "CO-PREZ",
+            "portrait": "Lisa_ss",
+            "intro": "Happiness is not about being immortal nor having food or rights in one's hand. It’s about having each tiny wish come true, or having something to eat when you are hungry or having someone's love when you need love."
+        },
+        {
+            "id":1100,
+            "name": "Eden Pien",
+            "department": "VP EVENT",
+            "portrait": "eden_ss",
+            "intro": "It's kinda like being on a roller coaster. If you don't get on the ride, you won't experience the adventure. Hop on and enjoy your ride with us."
+        },
+        {
+            "id":1110,
+            "name": "Charles Lyu",
+            "department": "VP EXTERNAL",
+            "portrait": "Charles_ss",
+            "intro": "There is only one heroism in the world: to see the world as it is and to love it."
+        },
+        {
+            "id":1120,
+            "name": "YuXuan Wu",
+            "department": "VP MEDIA",
+            "portrait": "Yuxuan_ss",
+            "intro": "My ultimate goal is just to have one building named after me in McGill."
+        },
+        {
+            "id":1130,
+            "name": "Jiani Hou",
+            "department": "VP FINANCE",
+            "portrait": "Jiani_ss",
+            "intro": "Fall down seven times and stand up eight. Never lose hope for a better tomorrow."
+        },
+        {
+            "id":1140,
+            "name": "Zidai Liu",
+            "department": "VP ACADEMIC",
+            "portrait": "John_ss",
+            "intro": "Pain and failure make us cherish the small moment of happiness in our lives."
+        },
+        {
+            "id":1150,
+            "name": "Jessica Wei",
+            "department": "VP COMM",
+            "portrait": "Jessica_ss",
+            "intro": "All is well that ends well."
+        },
+        {
+            "id":1060,
+            "name": "Geneva Yang",
+            "department": "VP INTERNAL",
+            "portrait": "Geneva_ss",
+            "intro": "You can find me on the Ferris wheel, sometimes up, sometimes down, but enjoying the ride."
+        }
+    ]
+}

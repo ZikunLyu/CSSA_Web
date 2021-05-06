@@ -1,0 +1,39 @@
+{
+    "Timeslots":[
+    {
+        "id": "1080",
+        "Term":"Fall",
+        "Date": "Sep 6th",
+        "Time": "14:00-15:00",
+        "Location": "RedPath Library H6"
+    },
+    {
+        "id": "1090",
+        "Term":"Fall",
+        "Date": "Sep 8th",
+        "Time": "15:30-16:30",
+        "Location": "RedPath Library H7"
+    },
+    {
+        "id":"1100",
+        "Term":"Fall",
+        "Date": "Sep 11st",
+        "Time": "15:00-16:00",
+        "Location": "RedPath Library H6"
+    },
+    {
+        "id":"1110",
+        "Term":"Winter",
+        "Date": "Jan 11st",
+        "Time": "15:00-16:00",
+        "Location": "RedPath Library H6"
+    },
+    {
+        "id":"1120",
+        "Term":"Winter",
+        "Date": "Jan 6th",
+        "Time": "15:00-16:00",
+        "Location": "RedPath Library H6"
+    }
+    ]
+}
